@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGM2210Fall2018_BeltGrace", "Assembly-CSharp.csproj", "{2CC906F1-BBA2-245B-5421-24D0F18472DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DGM2210Fall2018_BeltGrace", "Assembly-CSharp-Editor.csproj", "{ECD79DF2-1DE9-75B7-0EF2-C414BA268973}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CC906F1-BBA2-245B-5421-24D0F18472DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CC906F1-BBA2-245B-5421-24D0F18472DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CC906F1-BBA2-245B-5421-24D0F18472DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CC906F1-BBA2-245B-5421-24D0F18472DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD79DF2-1DE9-75B7-0EF2-C414BA268973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD79DF2-1DE9-75B7-0EF2-C414BA268973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD79DF2-1DE9-75B7-0EF2-C414BA268973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD79DF2-1DE9-75B7-0EF2-C414BA268973}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
