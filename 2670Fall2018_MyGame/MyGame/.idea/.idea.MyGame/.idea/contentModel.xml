@@ -136,7 +136,11 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="NameID.cs" t="Include" />
+          <e p="Script1#" t="Include">
+            <e p="Daggable.cs" t="Include" />
+            <e p="NameID.cs" t="Include" />
+            <e p="TriggerID.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

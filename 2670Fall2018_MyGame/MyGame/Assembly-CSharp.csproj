@@ -106,7 +106,9 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
-    <Compile Include="Assets\Scripts\NameID.cs" />
+    <Compile Include="Assets\Scripts\Script1#\Daggable.cs" />
+    <Compile Include="Assets\Scripts\Script1#\NameID.cs" />
+    <Compile Include="Assets\Scripts\Script1#\TriggerID.cs" />
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2670Fall2018_MyGame/MyGame/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
