@@ -94,6 +94,52 @@
      <Compile Include="Assets\Cinemachine\PostFX\Editor\CinemachinePostProcessingEditor.cs" />
      <Compile Include="Assets\Cinemachine\PostFX\Editor\PostFXAutoImport.cs" />
      <Compile Include="Assets\Cinemachine\Timeline\Editor\CinemachineShotEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\Editor\RecorderEditorBase.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\EXR\Editor\EXRRecorderSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\GIF\Editor\GIFRecorderSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\MP4\Editor\Mp4RecorderSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\PNG\Editor\PngRecorderSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\FCIntegration\WEBM\Editor\WEBMRecorderSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Audio\Editor\AudioInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Audio\Editor\AudioInputSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Audio\Editor\AudioInputSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Recorder\Editor\MediaRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Recorder\Editor\MediaRecorderEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\MovieRecorder\Recorder\Editor\MediaRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\AudioEncoderConfigDrawer.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\AudioRecorderEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\GBufferRecorderEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\Misc\BoolDrawer.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\Misc\DataPathDrawer.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\MovieEncoderConfigDrawer.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\MovieRecorderEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Extensions\UTJ\FrameCapturer\Editor\RecorderBaseEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\AboutBox.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\EnumHelper.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\FileNameDrawer.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\InputEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\OutputPathDrawer.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderSelector.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderWindow.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RecorderWindowSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\ResolutionSelector.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\RTInputSelector.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\SerializableObjHelper.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Core\Editor\Timeline\RecorderClipEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Animation\Editor\AnimationInput.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Animation\Editor\AnimationInputSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Animation\Editor\AnimationInputSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\Camera360\Editor\Camera360InputEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\CBRenderTexture\Editor\CBRenderTextureInputSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTexture\Editor\RenderTextureInputSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\RenderTextureSampler\Editor\RenderTextureSamplerEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Inputs\ScreenCapture\Editor\ScreenCaptureInputEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Packager\Editor\FRPackagerPaths.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\AnimationRecorder\Editor\AnimationRecorder.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\AnimationRecorder\Editor\AnimationRecorderSettings.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\AnimationRecorder\Editor\AnimationRecorderSettingsEditor.cs" />
+     <Compile Include="Assets\Unity Technologies\Recorder\Framework\Recorders\ImageRecorder\Editor\ImageRecorderEditor.cs" />
  <Reference Include="Cinemachine">
  <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2210Fall2018/Assignments/NewShortFilm/CinemachineDouble-decker/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
@@ -366,6 +412,9 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/10783188/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="JetBrains.Rider.Unity.Editor.Plugin.Repacked">
+ <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2210Fall2018/Assignments/NewShortFilm/CinemachineDouble-decker/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>
