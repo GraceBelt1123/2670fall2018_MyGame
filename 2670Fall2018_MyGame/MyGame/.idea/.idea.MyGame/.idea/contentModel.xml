@@ -137,9 +137,27 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Script1#" t="Include">
+            <e p="ChangeColor.cs" t="Include" />
+            <e p="ChangeColorOnTrigger.cs" t="Include" />
+            <e p="CharacterController.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="ColorData.cs" t="Include" />
             <e p="Daggable.cs" t="Include" />
+            <e p="Falling.cs" t="Include" />
+            <e p="InstanceObject.cs" t="Include" />
+            <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
-            <e p="TriggerID.cs" t="Include" />
+            <e p="PerpetualCounter.cs" t="Include" />
+            <e p="TriggerEnterEvent.cs" t="Include" />
+          </e>
+          <e p="Script2#" t="Include">
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="FloatBool.cs" t="Include" />
+            <e p="FloatData.cs" t="Include" />
+            <e p="FloatInput.cs" t="Include" />
+            <e p="FloatInput1.cs" t="Include" />
+            <e p="MovePattern.cs" t="Include" />
+            <e p="NewPattern.cs" t="Include" />
           </e>
         </e>
       </e>
