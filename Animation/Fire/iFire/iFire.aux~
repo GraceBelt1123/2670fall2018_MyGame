@@ -21,8 +21,57 @@
   <Drawing Key="" Name="18" Version="1"/>
   <Drawing Key="" Name="19" Version="1"/>
   <Drawing Key="" Name="20" Version="1"/>
+  <Drawing Key="" Name="21" Version="1"/>
+  <Drawing Key="" Name="22" Version="1"/>
+  <Drawing Key="" Name="23" Version="1"/>
+  <Drawing Key="" Name="24" Version="1"/>
+  <Drawing Key="" Name="25" Version="1"/>
+  <Drawing Key="" Name="26" Version="1"/>
+  <Drawing Key="" Name="27" Version="1"/>
+  <Drawing Key="" Name="28" Version="1"/>
+  <Drawing Key="" Name="29" Version="1"/>
+  <Drawing Key="" Name="30" Version="1"/>
+  <Drawing Key="" Name="31" Version="1"/>
+  <Drawing Key="" Name="32" Version="1"/>
+  <Drawing Key="" Name="33" Version="1"/>
+  <Drawing Key="" Name="34" Version="1"/>
+  <Drawing Key="" Name="35" Version="1"/>
+  <Drawing Key="" Name="36" Version="1"/>
+  <Drawing Key="" Name="37" Version="1"/>
+  <Drawing Key="" Name="38" Version="1"/>
+  <Drawing Key="" Name="39" Version="1"/>
+  <Drawing Key="" Name="40" Version="1"/>
+  <Drawing Key="" Name="41" Version="1"/>
+  <Drawing Key="" Name="42" Version="1"/>
+  <Drawing Key="" Name="43" Version="1"/>
+  <Drawing Key="" Name="44" Version="1"/>
+  <Drawing Key="" Name="45" Version="1"/>
+  <Drawing Key="" Name="46" Version="1"/>
+  <Drawing Key="" Name="47" Version="1"/>
+  <Drawing Key="" Name="48" Version="1"/>
+  <Drawing Key="" Name="49" Version="1"/>
+  <Drawing Key="" Name="50" Version="1"/>
+  <Drawing Key="" Name="51" Version="1"/>
+  <Drawing Key="" Name="52" Version="1"/>
+  <Drawing Key="" Name="53" Version="1"/>
+  <Drawing Key="" Name="54" Version="1"/>
+  <Drawing Key="" Name="55" Version="1"/>
+  <Drawing Key="" Name="56" Version="1"/>
+  <Drawing Key="" Name="57" Version="1"/>
+  <Drawing Key="" Name="58" Version="1"/>
+  <Drawing Key="" Name="59" Version="1"/>
+  <Drawing Key="" Name="60" Version="1"/>
+  <Drawing Key="" Name="61" Version="1"/>
+  <Drawing Key="" Name="62" Version="1"/>
+  <Drawing Key="" Name="63" Version="1"/>
+  <Drawing Key="" Name="64" Version="1"/>
+  <Drawing Key="" Name="65" Version="1"/>
+  <Drawing Key="" Name="66" Version="1"/>
+  <Drawing Key="" Name="67" Version="1"/>
+  <Drawing Key="" Name="68" Version="1"/>
  </Element>
  <Element Name="Man" ID="2" Folder="Man">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
+ <Element Name="Circling" ID="3" Folder="Circling"/>
 </SceneVersion>
