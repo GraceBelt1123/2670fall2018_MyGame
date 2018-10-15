@@ -143,10 +143,10 @@
             <e p="CharacterMovement.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
             <e p="Daggable.cs" t="Include" />
-            <e p="Falling.cs" t="Include" />
             <e p="InstanceObject.cs" t="Include" />
             <e p="MatchID.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
+            <e p="NewMattern.cs" t="Include" />
             <e p="PerpetualCounter.cs" t="Include" />
             <e p="TriggerEnterEvent.cs" t="Include" />
           </e>

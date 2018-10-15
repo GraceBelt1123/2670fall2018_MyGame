@@ -112,8 +112,6 @@
     <Compile Include="Assets\Scripts\Script1#\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Script1#\ColorData.cs" />
     <Compile Include="Assets\Scripts\Script1#\Daggable.cs" />
-    <Compile Include="Assets\Scripts\Script1#\Falling.cs" />
-    <Compile Include="Assets\Scripts\Script1#\Horizontal.cs" />
     <Compile Include="Assets\Scripts\Script1#\InstanceObject.cs" />
     <Compile Include="Assets\Scripts\Script1#\MatchID.cs" />
     <Compile Include="Assets\Scripts\Script1#\NameID.cs" />
