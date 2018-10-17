@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 185328273}
   - component: {fileID: 185328272}
   m_Layer: 5
-  m_Name: Start
+  m_Name: Buttons
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -303,7 +303,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 462778423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -8.01, z: 0}
+  m_LocalPosition: {x: 0, y: -9.26, z: 0}
   m_LocalScale: {x: 32.269966, y: 0.25031918, z: -1.7497035}
   m_Children: []
   m_Father: {fileID: 0}
@@ -388,7 +388,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1175649212}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -7.51, z: 0}
+  m_LocalPosition: {x: 0, y: -8.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 0.85761446}
   m_Children: []
   m_Father: {fileID: 0}
@@ -584,7 +584,7 @@ GameObject:
   - component: {fileID: 1621553934}
   - component: {fileID: 1621553933}
   m_Layer: 5
-  m_Name: Text
+  m_Name: Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,7 +598,7 @@ RectTransform:
   m_GameObject: {fileID: 1621553931}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.1483974, y: 1.1483971, z: 1.1483971}
   m_Children: []
   m_Father: {fileID: 185328271}
   m_RootOrder: 0
@@ -620,8 +620,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -630,17 +630,19 @@ MonoBehaviour:
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 14
-    m_FontStyle: 0
+    m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
     m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
+    m_AlignByGeometry: 1
+    m_RichText: 0
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 'Start
+
+'
 --- !u!222 &1621553934
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -658,6 +660,7 @@ GameObject:
   - component: {fileID: 1796655491}
   - component: {fileID: 1796655490}
   - component: {fileID: 1796655489}
+  - component: {fileID: 1796655493}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -741,6 +744,12 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!222 &1796655493
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1796655488}
 --- !u!1 &1819550735
 GameObject:
   m_ObjectHideFlags: 0
@@ -878,7 +887,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2144536043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.1, z: -15.4}
+  m_LocalPosition: {x: 0, y: -3, z: -17}
   m_LocalScale: {x: 1, y: 1, z: 1.5267831}
   m_Children: []
   m_Father: {fileID: 0}
