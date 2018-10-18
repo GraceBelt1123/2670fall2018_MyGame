@@ -1,3 +1,4 @@
 ToonBoomAnimationInc PaletteList 1
 palette-library/iSplash LINK "F:/Animation/UnfoldedWaterSplash/iSplash/palette-library/iSplash.plt"
 palette-library/iSplash_pencil_texture LINK "F:/Animation/UnfoldedWaterSplash/iSplash/palette-library/iSplash_pencil_texture.plt"
+palette-library/penstyle_opacity LINK "C:/Users/10783188/Desktop/Animation/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/penstyle_opacity.plt"
