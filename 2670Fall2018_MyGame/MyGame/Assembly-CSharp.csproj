@@ -106,10 +106,10 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Assets\LeftAndRight.cs" />
+    <Compile Include="Assets\Scripts\MyOwnScript\Movement.cs" />
     <Compile Include="Assets\Scripts\Script1#\ChangeColor.cs" />
     <Compile Include="Assets\Scripts\Script1#\ChangeColorOnTrigger.cs" />
-    <Compile Include="Assets\Scripts\Script1#\CharacterController.cs" />
-    <Compile Include="Assets\Scripts\Script1#\CharacterMovement.cs" />
     <Compile Include="Assets\Scripts\Script1#\ColorData.cs" />
     <Compile Include="Assets\Scripts\Script1#\Daggable.cs" />
     <Compile Include="Assets\Scripts\Script1#\InstanceObject.cs" />

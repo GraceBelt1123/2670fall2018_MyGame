@@ -135,12 +135,14 @@
             </e>
           </e>
         </e>
+        <e p="LeftAndRight.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="MyOwnScript" t="Include">
+            <e p="Movement.cs" t="Include" />
+          </e>
           <e p="Script1#" t="Include">
             <e p="ChangeColor.cs" t="Include" />
             <e p="ChangeColorOnTrigger.cs" t="Include" />
-            <e p="CharacterController.cs" t="Include" />
-            <e p="CharacterMovement.cs" t="Include" />
             <e p="ColorData.cs" t="Include" />
             <e p="Daggable.cs" t="Include" />
             <e p="InstanceObject.cs" t="Include" />

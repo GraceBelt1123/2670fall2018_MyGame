@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu]
-public class FloatData : MonoBehaviour {
+public class FloatData : ScriptableObject {
 
-    public class FloatData : ScriptableObject
-    {
+   
         public float value;
 
         public virtual float Value
@@ -14,4 +13,4 @@ public class FloatData : MonoBehaviour {
             get { return value; }
         }
     }
-}
+
