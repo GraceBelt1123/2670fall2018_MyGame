@@ -10,6 +10,17 @@
     <dwg name="5"/>
     <dwg name="6"/>
     <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+    <dwg name="12"/>
+    <dwg name="13"/>
+    <dwg name="14"/>
+    <dwg name="15"/>
+    <dwg name="16"/>
+    <dwg name="17"/>
+    <dwg name="18"/>
    </drawings>
   </element>
  </elements>
@@ -26,7 +37,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="094ec5fc76c00d72" nbframes="15">
+  <scene name="Top" id="094ec5fc76c00d72" nbframes="71">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
@@ -35,6 +46,17 @@
      <elementSeq exposures="4" val="5" id="6"/>
      <elementSeq exposures="5" val="6" id="6"/>
      <elementSeq exposures="6" val="7" id="6"/>
+     <elementSeq exposures="7" val="8" id="6"/>
+     <elementSeq exposures="8-9" val="9" id="6"/>
+     <elementSeq exposures="10-11" val="10" id="6"/>
+     <elementSeq exposures="12-13" val="11" id="6"/>
+     <elementSeq exposures="14-15" val="12" id="6"/>
+     <elementSeq exposures="16" val="13" id="6"/>
+     <elementSeq exposures="17" val="14" id="6"/>
+     <elementSeq exposures="18" val="15" id="6"/>
+     <elementSeq exposures="19-20" val="16" id="6"/>
+     <elementSeq exposures="21-22" val="17" id="6"/>
+     <elementSeq exposures="23" val="18" id="6"/>
     </column>
    </columns>
    <options>

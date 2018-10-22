@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.1 build 12463 2017-04-10 10:58:55" version="1401" build="12463" creator="harmony">
  <elements>
-  <element id="3" elementName="iSplash" elementFolder="iSplash" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="6" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
     <dwg name="3"/>
     <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
    </drawings>
   </element>
  </elements>
@@ -23,13 +26,15 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="094ec5fc76c00d72" nbframes="51">
+  <scene name="Top" id="094ec5fc76c00d72" nbframes="15">
    <columns>
-    <column type="0" name="iSplash" displayOrder="1" width="100" anonymous="true" id="3">
-     <elementSeq exposures="1" val="1" id="3"/>
-     <elementSeq exposures="2-3" val="2" id="3"/>
-     <elementSeq exposures="4-5" val="3" id="3"/>
-     <elementSeq exposures="6" val="4" id="3"/>
+    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="6">
+     <elementSeq exposures="1" val="1" id="6"/>
+     <elementSeq exposures="2" val="2" id="6"/>
+     <elementSeq exposures="3" val="3" id="6"/>
+     <elementSeq exposures="4" val="5" id="6"/>
+     <elementSeq exposures="5" val="6" id="6"/>
+     <elementSeq exposures="6" val="7" id="6"/>
     </column>
    </columns>
    <options>
@@ -91,7 +96,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="iSplash" pos="0,0,0" publishUnderTab="iSplash">
+     <module type="READ" name="Drawing" pos="0,0,0" publishUnderTab="Drawing">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -151,7 +156,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="iSplash">
+        <element col="Drawing">
          <layer/>
         </element>
         <customName>
@@ -199,7 +204,7 @@
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="iSplash" in="Composite"/>
+     <link out="Drawing" in="Composite"/>
     </linkedlist>
    </rootgroup>
    <metas>
