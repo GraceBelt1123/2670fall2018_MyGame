@@ -6,9 +6,10 @@
       <e p="2670Fall2018_NewGame.sln" t="IncludeFlat" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="ButtonHandler.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="GameButtonHandler.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
-          <e p="Time.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
