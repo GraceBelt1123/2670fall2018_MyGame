@@ -298,7 +298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 637496146}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Texts
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -677,7 +677,7 @@ GameObject:
   - component: {fileID: 953062889}
   - component: {fileID: 953062888}
   m_Layer: 5
-  m_Name: RestartSetting
+  m_Name: Restart
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -808,7 +808,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -31, y: -144.2782}
+  m_AnchoredPosition: {x: -31, y: -170}
   m_SizeDelta: {x: 311.9, y: 73.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001643470
@@ -843,7 +843,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Game Over
+  m_Text: You Won
 --- !u!222 &1001643471
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1247,7 +1247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -31, y: -144.27817}
+  m_AnchoredPosition: {x: -31, y: -110}
   m_SizeDelta: {x: 311.9, y: 73.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1832304324
@@ -1262,7 +1262,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1385,7 +1385,7 @@ GameObject:
   - component: {fileID: 1882003256}
   - component: {fileID: 1882003255}
   m_Layer: 5
-  m_Name: Stop
+  m_Name: Restarting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1441,7 +1441,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: STOP
+  m_Text: 'ReStart
+
+'
 --- !u!222 &1882003256
 CanvasRenderer:
   m_ObjectHideFlags: 0
