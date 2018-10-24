@@ -1,26 +1,26 @@
 ﻿using System;
 using Boo.Lang;
 using UnityEngine;
+using UnityEngine.Analytics;
 
 
 public class TimeSet : MonoBehaviour
 {
 	public int countDown = 0;
 	public string[] Sweets;
+	public bool Timing;
 	
 //This is countdown in 30 seconds when it is pressed the button "Play".
-	void Start () {
+	void Update () {
 
-		while (countDown < 30)
+		while (countDown < 30.0f)
 		{
-			print(countDown);
-			countDown += 0;
+			
 		}
 
 		while (countDown < Sweets.Length)
 		{
-			print(Sweets[countDown]);
-			countDown++;
+			
 		}
 		
 		Console.WriteLine("Go");

@@ -28,14 +28,14 @@
       <file leaf-file-name="TimeSet.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeSet.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+            <state relative-caret-position="150">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding>
-                <marker date="1540421750077" expanded="true" signature="6:48" ph="..." />
-                <marker date="1540421750077" expanded="true" signature="87:1444" ph="{...}" />
-                <marker date="1540421750077" expanded="true" signature="231:1442" ph="{...}" />
-                <marker date="1540421750077" expanded="true" signature="258:306" ph="{...}" />
-                <marker date="1540421750077" expanded="true" signature="343:396" ph="{...}" />
+                <marker date="1540423007316" expanded="true" signature="6:77" ph="..." />
+                <marker date="1540423007316" expanded="true" signature="116:1421" ph="{...}" />
+                <marker date="1540423007316" expanded="true" signature="282:1419" ph="{...}" />
+                <marker date="1540423007316" expanded="true" signature="312:324" ph="{...}" />
+                <marker date="1540423007316" expanded="true" signature="361:373" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,11 +64,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="232" />
-    <option name="y" value="212" />
-    <option name="width" value="1358" />
-    <option name="height" value="756" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="y" value="301" />
+    <option name="width" value="974" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -76,7 +76,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
@@ -93,10 +92,12 @@
         </subPane>
         <option name="show-hidden-items" value="false" />
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="Left&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunDashboard">
@@ -135,11 +136,12 @@
       <workItem from="1540251613971" duration="3493000" />
       <workItem from="1540402379139" duration="680000" />
       <workItem from="1540419322900" duration="2457000" />
+      <workItem from="1540422125801" duration="888000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17502000" />
+    <option name="totallyTimeSpent" value="18390000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -151,22 +153,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="232" y="212" width="1358" height="756" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="301" width="974" height="746" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.05007704" />
+      <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.07111597" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40446842" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.583151" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -190,6 +191,32 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1540238009787" expanded="true" signature="58:362" ph="{...}" />
+            <marker date="1540238009787" expanded="true" signature="165:360" ph="{...}" />
+            <marker date="1540238009787" expanded="true" signature="201:354" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeSet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <marker date="1540423007316" expanded="true" signature="6:77" ph="..." />
+            <marker date="1540423007316" expanded="true" signature="116:1421" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="282:1419" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="312:324" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="361:373" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
           <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
           <folding>
             <marker date="1540238009787" expanded="true" signature="58:362" ph="{...}" />
@@ -199,13 +226,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameButtonHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameButtonHandler.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -218,13 +239,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameButtonHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameButtonHandler.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -293,13 +308,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Time.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/ButtonHandler.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameButtonHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="77" selection-start-line="9" selection-start-column="77" selection-end-line="9" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameButtonHandler.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -312,23 +321,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Score.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeSet.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        <state relative-caret-position="150">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
           <folding>
-            <marker date="1540421750077" expanded="true" signature="6:48" ph="..." />
-            <marker date="1540421750077" expanded="true" signature="87:1444" ph="{...}" />
-            <marker date="1540421750077" expanded="true" signature="231:1442" ph="{...}" />
-            <marker date="1540421750077" expanded="true" signature="258:306" ph="{...}" />
-            <marker date="1540421750077" expanded="true" signature="343:396" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="6:77" ph="..." />
+            <marker date="1540423007316" expanded="true" signature="116:1421" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="282:1419" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="312:324" ph="{...}" />
+            <marker date="1540423007316" expanded="true" signature="361:373" ph="{...}" />
           </folding>
         </state>
       </provider>
