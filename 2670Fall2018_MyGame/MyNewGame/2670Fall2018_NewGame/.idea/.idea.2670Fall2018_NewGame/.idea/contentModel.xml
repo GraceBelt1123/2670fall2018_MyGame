@@ -8,8 +8,8 @@
       <e p="Assets" t="Include">
         <e p="ButtonHandler.cs" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="GameButtonHandler.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="TimeSet.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
