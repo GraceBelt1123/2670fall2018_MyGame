@@ -28,6 +28,8 @@
     <dwg name="23"/>
     <dwg name="24"/>
     <dwg name="25"/>
+    <dwg name="26"/>
+    <dwg name="27"/>
    </drawings>
   </element>
  </elements>
@@ -45,7 +47,7 @@
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="094ec5fc76c00d72" nbframes="92">
+  <scene name="Top" id="094ec5fc76c00d72" nbframes="91">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
@@ -68,7 +70,9 @@
      <elementSeq exposures="24-25" val="22" id="6"/>
      <elementSeq exposures="26-27" val="23" id="6"/>
      <elementSeq exposures="28-29" val="24" id="6"/>
-     <elementSeq exposures="30" val="25" id="6"/>
+     <elementSeq exposures="30-31" val="25" id="6"/>
+     <elementSeq exposures="32" val="26" id="6"/>
+     <elementSeq exposures="33" val="27" id="6"/>
     </column>
    </columns>
    <options>
