@@ -124,6 +124,7 @@ GameObject:
   - component: {fileID: 5505771}
   - component: {fileID: 5505770}
   - component: {fileID: 5505769}
+  - component: {fileID: 5505772}
   m_Layer: 0
   m_Name: GoldenOne
   m_TagString: Untagged
@@ -138,11 +139,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5505767}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -40.89, y: 9.43, z: -140}
+  m_LocalPosition: {x: -12.5, y: 0, z: 0}
   m_LocalScale: {x: 0.39285237, y: 0.39285237, z: 0.39285237}
   m_Children: []
-  m_Father: {fileID: 1171082150}
-  m_RootOrder: 1
+  m_Father: {fileID: 876083921}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &5505769
 BoxCollider:
@@ -198,6 +199,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 5505767}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &5505772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 5505767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9aa7de2387fff458dd178acbb7884d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Speed: 0
+  iControl: 0
+  Coins: {fileID: 5505767}
+  fallSpeed: 40
+  Trigger: {fileID: 0}
 --- !u!1 &48248848
 GameObject:
   m_ObjectHideFlags: 0
@@ -302,6 +320,7 @@ GameObject:
   - component: {fileID: 226019642}
   - component: {fileID: 226019641}
   - component: {fileID: 226019640}
+  - component: {fileID: 226019643}
   m_Layer: 0
   m_Name: GoldenTwo
   m_TagString: Untagged
@@ -316,11 +335,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 226019638}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -34.42, y: 9.429993, z: -140}
-  m_LocalScale: {x: 0.39284998, y: 0.39284998, z: 0.39284998}
+  m_LocalPosition: {x: -6.0300293, y: 0, z: 0}
+  m_LocalScale: {x: 0.39285237, y: 0.39285237, z: 0.39285237}
   m_Children: []
-  m_Father: {fileID: 1171082150}
-  m_RootOrder: 2
+  m_Father: {fileID: 876083921}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &226019640
 BoxCollider:
@@ -376,6 +395,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 226019638}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &226019643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 226019638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9aa7de2387fff458dd178acbb7884d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Speed: 0
+  iControl: 0
+  Coins: {fileID: 226019638}
+  fallSpeed: 40
+  Trigger: {fileID: 0}
 --- !u!1 &246826072
 GameObject:
   m_ObjectHideFlags: 0
@@ -1047,6 +1083,37 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 807134315}
+--- !u!1 &876083920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 876083921}
+  m_Layer: 0
+  m_Name: SamePlaceCoins
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &876083921
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 876083920}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -28.389984, y: 9.429993, z: -140}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1679699032}
+  - {fileID: 226019639}
+  - {fileID: 5505768}
+  m_Father: {fileID: 1171082150}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &907479579
 GameObject:
   m_ObjectHideFlags: 0
@@ -1246,6 +1313,9 @@ MonoBehaviour:
   Player: {fileID: 1127645855}
   Speed: 5
   iControl: 1
+  Coins: {fileID: 0}
+  fallSpeed: 40
+  Trigger: {fileID: 0}
 --- !u!65 &1127645857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1324,6 +1394,7 @@ GameObject:
   - component: {fileID: 1153927366}
   - component: {fileID: 1153927365}
   - component: {fileID: 1153927364}
+  - component: {fileID: 1153927367}
   m_Layer: 0
   m_Name: DroppingCoins
   m_TagString: Untagged
@@ -1398,6 +1469,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1153927362}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1153927367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1153927362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9aa7de2387fff458dd178acbb7884d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Speed: 0
+  iControl: 0
+  Coins: {fileID: 0}
+  fallSpeed: 40
+  Trigger: {fileID: 0}
 --- !u!1 &1171082149
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,9 +1512,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1153927363}
-  - {fileID: 5505768}
-  - {fileID: 226019639}
-  - {fileID: 1679699032}
+  - {fileID: 876083921}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1547,6 +1633,7 @@ GameObject:
   - component: {fileID: 1679699035}
   - component: {fileID: 1679699034}
   - component: {fileID: 1679699033}
+  - component: {fileID: 1679699036}
   m_Layer: 0
   m_Name: GoldenThree
   m_TagString: Untagged
@@ -1561,11 +1648,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1679699031}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -28.39, y: 9.429993, z: -140}
-  m_LocalScale: {x: 0.39284998, y: 0.39284998, z: 0.39284998}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.39285237, y: 0.39285237, z: 0.39285237}
   m_Children: []
-  m_Father: {fileID: 1171082150}
-  m_RootOrder: 3
+  m_Father: {fileID: 876083921}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!65 &1679699033
 BoxCollider:
@@ -1621,6 +1708,23 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1679699031}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1679699036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1679699031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc9aa7de2387fff458dd178acbb7884d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  Speed: 0
+  iControl: 0
+  Coins: {fileID: 1679699031}
+  fallSpeed: 40
+  Trigger: {fileID: 0}
 --- !u!1 &1877285291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1849,7 +1953,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a6a0869e83a8848bc94b00c6de49fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingNumber: 30
+  startingNumber: 20
   text: {fileID: 267294117}
   startTimerEvent:
     m_PersistentCalls:

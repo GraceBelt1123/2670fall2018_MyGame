@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class GameStateManager : MonoBehaviour {
 
@@ -35,8 +36,5 @@ public class GameStateManager : MonoBehaviour {
 		{
 			loseText.SetActive(true);
 		}
-
 	}
-
-
 }
