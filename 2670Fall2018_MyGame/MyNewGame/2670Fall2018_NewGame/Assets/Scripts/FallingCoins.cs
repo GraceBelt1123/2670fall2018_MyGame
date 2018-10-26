@@ -9,7 +9,12 @@ public class FallingCoins : MonoBehaviour
     //It will be repeated the same thing over and over again. 
     
     public GameObject Coins;
-    public float FallSpeed = 100.0f;
+    public float FallSpeed = 10.0f;
+
+    void Update()
+    {
+        Falling();
+    }
 
     public void Falling()
     {
