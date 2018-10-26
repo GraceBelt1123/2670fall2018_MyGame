@@ -15,7 +15,6 @@
           <e p="GameStateManager.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
-          <e p="TriggerCoins.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 33915744307602968}
   - component: {fileID: 23070826270401070}
   - component: {fileID: 65352041769088798}
-  - component: {fileID: 114890479865510838}
+  - component: {fileID: 114748176770853602}
   m_Layer: 0
   m_Name: GoldenCoin
   m_TagString: Untagged
@@ -92,12 +92,12 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1901480383431520}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114890479865510838
+--- !u!114 &114748176770853602
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -108,5 +108,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff88087a3eaa964c917e2b0c6e341ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Coins: {fileID: 0}
-  FallSpeed: 1
+  Coins: {fileID: 1901480383431520}
+  FallSpeed: 10
