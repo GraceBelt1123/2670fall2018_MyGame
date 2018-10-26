@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class TimeSet : MonoBehaviour
 {
-	public int startingNumber = 5;
+	public int startingNumber = 30;
 
 	public Text text;
 
