@@ -8,9 +8,12 @@
       <e p="Assets" t="Include">
         <e p="ButtonHandler.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="CollectCoins.cs" t="Include" />
+          <e p="FallingCoins.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
+          <e p="TriggerCoins.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

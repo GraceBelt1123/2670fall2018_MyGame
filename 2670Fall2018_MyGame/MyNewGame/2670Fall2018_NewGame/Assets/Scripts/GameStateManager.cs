@@ -1,8 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
-using UnityEngine.SocialPlatforms.Impl;
 
+//Start working with my score, win the score or didn't win the score. 
 public class GameStateManager : MonoBehaviour {
 
 	public GameObject winText;
