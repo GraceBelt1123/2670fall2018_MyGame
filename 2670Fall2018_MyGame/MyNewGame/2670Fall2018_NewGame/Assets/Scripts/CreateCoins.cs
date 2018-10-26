@@ -10,8 +10,6 @@ public class CreateCoins : MonoBehaviour
 
 	public GameObject Coins;
 	public GameObject Trigger;
-	public UnityEvent startCoinsEvent;
-	public int createMultiply = 20;
 
 
 	private void Update()
@@ -25,15 +23,4 @@ public class CreateCoins : MonoBehaviour
 		Instantiate(Coins, Trigger.transform.position, Quaternion.identity);
 	}
 
-	public void subjectCoins()
-	{
-		StartCoroutine(CreatingCoins());
-	}
-
-	IEnumerable CreatingCoins()
-	{
-		startCoinsEvent.Invoke;
-		int sweetCoinsNum = createMultiply; 
-		
-		while 
-	}
+}

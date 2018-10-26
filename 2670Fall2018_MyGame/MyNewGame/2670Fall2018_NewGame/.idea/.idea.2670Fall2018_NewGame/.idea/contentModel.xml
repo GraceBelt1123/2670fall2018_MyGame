@@ -13,7 +13,9 @@
           <e p="DestoryCoins.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
+          <e p="Levels.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="PlayerGameMangerCollective.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
         </e>
       </e>
