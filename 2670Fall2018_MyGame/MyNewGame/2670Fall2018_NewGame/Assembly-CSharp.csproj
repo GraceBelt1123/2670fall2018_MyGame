@@ -60,7 +60,6 @@
     <Compile Include="Assets\Scripts\FallingCoins.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\secondFallingCoins.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />
     <Compile Include="Assets\Scripts\TimeSet.cs" />
     <Reference Include="UnityEditor.StandardEvents">
