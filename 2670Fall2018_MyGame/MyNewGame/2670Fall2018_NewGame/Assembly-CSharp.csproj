@@ -59,9 +59,8 @@
     <Compile Include="Assets\Scripts\DestoryCoins.cs" />
     <Compile Include="Assets\Scripts\FallingCoins.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />
-    <Compile Include="Assets\Scripts\Levels.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\PlayerGameMangerCollective.cs" />
+    <Compile Include="Assets\Scripts\SwitchScenes.cs" />
     <Compile Include="Assets\Scripts\TimeSet.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

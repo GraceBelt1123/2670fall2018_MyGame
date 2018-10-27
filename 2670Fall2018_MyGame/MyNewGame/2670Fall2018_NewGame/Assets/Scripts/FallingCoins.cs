@@ -10,14 +10,74 @@ public class FallingCoins : MonoBehaviour
     
     public GameObject Coins;
     public float FallSpeed = 10.0f;
+    public float SecondSpeed = 10.0f;
+    public float ThirdSpeed = 10.0f;
 
     void Update()
     {
         Falling();
+        secondFalling();
+        thirdFalling();
     }
 
     public void Falling()
     {
         transform.Translate(Vector3.down * FallSpeed * Time.deltaTime, Space.World);
     }
+
+    public void secondFalling()
+    {
+        transform.Translate(Vector3.down * SecondSpeed * Time.deltaTime, Space.World);
+    }
+
+    public void thirdFalling()
+    {
+        transform.Translate(Vector3.down * ThirdSpeed * Time.deltaTime, Space.World );
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
