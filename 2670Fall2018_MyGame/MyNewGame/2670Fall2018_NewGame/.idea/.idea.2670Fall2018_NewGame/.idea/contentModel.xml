@@ -10,10 +10,13 @@
         <e p="Scripts" t="Include">
           <e p="CollectCoins.cs" t="Include" />
           <e p="CreateCoins.cs" t="Include" />
+          <e p="CreateMultCoins.cs" t="Include" />
           <e p="DestoryCoins.cs" t="Include" />
+          <e p="Falling.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="secondFallingCoins.cs" t="Include" />
           <e p="SwitchScenes.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
         </e>
