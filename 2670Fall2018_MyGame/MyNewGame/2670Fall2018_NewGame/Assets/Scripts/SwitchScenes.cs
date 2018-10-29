@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SwitchScenes : MonoBehaviour {
 
+    
     public void changescene(string scenename)
     {
         Application.LoadLevel(scenename);
