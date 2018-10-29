@@ -35,6 +35,12 @@
   <Drawing Key="" Name="32" Version="1"/>
   <Drawing Key="" Name="33" Version="1"/>
   <Drawing Key="" Name="34" Version="1"/>
+  <Drawing Key="" Name="35" Version="1"/>
  </Element>
- <Element Name="Drawing_2" ID="8" Folder="Drawing_2"/>
+ <Element Name="Drawing_2" ID="8" Folder="Drawing_2">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing_1" ID="9" Folder="Drawing_1">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
 </SceneVersion>
