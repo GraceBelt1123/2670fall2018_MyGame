@@ -11,38 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Falling.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Falling.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
-              <folding>
-                <marker date="1540666392194" expanded="false" signature="6:78" ph="..." />
-                <marker date="1540666392194" expanded="true" signature="116:361" ph="{...}" />
-                <marker date="1540666392194" expanded="true" signature="230:253" ph="{...}" />
-                <marker date="1540666392194" expanded="true" signature="274:359" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameStateManager.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameStateManager.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-              <folding>
-                <marker date="1540524002135" expanded="true" signature="138:700" ph="{...}" />
-                <marker date="1540524002135" expanded="true" signature="302:390" ph="{...}" />
-                <marker date="1540524002135" expanded="true" signature="451:698" ph="{...}" />
-                <marker date="1540524002135" expanded="true" signature="458:567" ph="/* if score is greater than 5, set didWin equal to true ... */" />
-                <marker date="1540524002135" expanded="true" signature="604:640" ph="{...}" />
-                <marker date="1540524002135" expanded="true" signature="658:695" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CreateCoins.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateCoins.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,16 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateMultCoins.cs" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CreateMultCoins.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateMultCoins.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="195">
+              <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
               <folding>
-                <marker date="1540673871511" expanded="false" signature="6:78" ph="..." />
-                <marker date="1540673871511" expanded="true" signature="124:418" ph="{...}" />
-                <marker date="1540673871511" expanded="true" signature="143:416" ph="{...}" />
-                <marker date="1540673871511" expanded="true" signature="158:410" ph="/* GameObject prefab = Prefab.Load(&quot;CoinOne&quot;) as GameObject; ... */" />
+                <marker date="1540841874956" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540841874956" expanded="true" signature="124:497" ph="{...}" />
+                <marker date="1540841874956" expanded="true" signature="247:495" ph="{...}" />
+                <marker date="1540841874956" expanded="true" signature="359:489" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -77,7 +45,7 @@
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectCoins.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <marker date="1540593057295" expanded="false" signature="6:116" ph="..." />
                 <marker date="1540593057295" expanded="true" signature="160:418" ph="{...}" />
@@ -91,14 +59,31 @@
       <file leaf-file-name="TimeSet.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeSet.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="240">
+              <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
               <folding>
                 <marker date="1540519041475" expanded="false" signature="6:106" ph="..." />
                 <marker date="1540519041475" expanded="true" signature="145:711" ph="{...}" />
                 <marker date="1540519041475" expanded="true" signature="377:414" ph="{...}" />
                 <marker date="1540519041475" expanded="true" signature="440:709" ph="{...}" />
                 <marker date="1540519041475" expanded="true" signature="541:654" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameStateManager.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameStateManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <marker date="1540524002135" expanded="true" signature="138:700" ph="{...}" />
+                <marker date="1540524002135" expanded="true" signature="302:390" ph="{...}" />
+                <marker date="1540524002135" expanded="true" signature="451:698" ph="{...}" />
+                <marker date="1540524002135" expanded="true" signature="458:567" ph="/* if score is greater than 5, set didWin equal to true ... */" />
+                <marker date="1540524002135" expanded="true" signature="604:640" ph="{...}" />
+                <marker date="1540524002135" expanded="true" signature="658:695" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -146,7 +131,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FallingCoins.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FallingCoins.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/FallingCoins.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -156,6 +141,19 @@
                 <marker date="1540666311593" expanded="true" signature="121:404" ph="{...}" />
                 <marker date="1540666311593" expanded="true" signature="247:278" ph="{...}" />
                 <marker date="1540666311593" expanded="true" signature="305:402" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DestoryCoins.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestoryCoins.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1540582788087" expanded="false" signature="6:78" ph="..." />
+                <marker date="1540582788087" expanded="true" signature="122:311" ph="{...}" />
+                <marker date="1540582788087" expanded="true" signature="181:309" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -207,10 +205,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="20" />
-    <option name="y" value="365" />
-    <option name="width" value="1597" />
-    <option name="height" value="758" />
+    <option name="x" value="939" />
+    <option name="y" value="343" />
+    <option name="width" value="771" />
+    <option name="height" value="626" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -218,11 +216,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="SolutionExplorer">
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
+      <pane id="Scratches" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -296,11 +294,12 @@
       <workItem from="1540665241664" duration="3384000" />
       <workItem from="1540671844678" duration="2487000" />
       <workItem from="1540675177956" duration="908000" />
+      <workItem from="1540838384326" duration="2631000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50387000" />
+    <option name="totallyTimeSpent" value="53018000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -312,21 +311,21 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="20" y="365" width="1597" height="758" extended-state="0" />
+    <frame x="939" y="343" width="771" height="626" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" weight="0.04459203" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.025374105" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05485232" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="NuGet" order="11" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -342,22 +341,22 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Unity" order="9" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.040796965" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Errors In Solution" order="3" visible="true" weight="0.04459203" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.040796965" />
     </layout-to-restore>
   </component>
   <component name="UnityProjectConfiguration" isUnityUI="true" />
@@ -671,8 +670,12 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerGameMangerCollective.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DestoryCoins.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state>
+          <folding>
+            <marker date="1540582788087" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540582788087" expanded="true" signature="122:311" ph="{...}" />
+            <marker date="1540582788087" expanded="true" signature="181:309" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -690,70 +693,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameStateManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FallingCoins.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+          <folding>
+            <marker date="1540666311593" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540666311593" expanded="true" signature="121:404" ph="{...}" />
+            <marker date="1540666311593" expanded="true" signature="247:278" ph="{...}" />
+            <marker date="1540666311593" expanded="true" signature="305:402" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchScenes.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <marker date="1540524002135" expanded="true" signature="138:700" ph="{...}" />
-            <marker date="1540524002135" expanded="true" signature="302:390" ph="{...}" />
-            <marker date="1540524002135" expanded="true" signature="451:698" ph="{...}" />
-            <marker date="1540524002135" expanded="true" signature="458:567" ph="/* if score is greater than 5, set didWin equal to true ... */" />
-            <marker date="1540524002135" expanded="true" signature="604:640" ph="{...}" />
-            <marker date="1540524002135" expanded="true" signature="658:695" ph="{...}" />
+            <marker date="1540596811637" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540596811637" expanded="true" signature="123:227" ph="{...}" />
+            <marker date="1540596811637" expanded="true" signature="171:225" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateCoins.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state>
           <folding>
-            <marker date="1540591859614" expanded="false" signature="6:164" ph="..." />
-            <marker date="1540591859614" expanded="true" signature="206:477" ph="{...}" />
-            <marker date="1540591859614" expanded="true" signature="288:313" ph="{...}" />
-            <marker date="1540591859614" expanded="true" signature="397:474" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateMultCoins.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <marker date="1540673871511" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540673871511" expanded="true" signature="124:418" ph="{...}" />
-            <marker date="1540673871511" expanded="true" signature="143:416" ph="{...}" />
-            <marker date="1540673871511" expanded="true" signature="158:410" ph="/* GameObject prefab = Prefab.Load(&quot;CoinOne&quot;) as GameObject; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectCoins.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <marker date="1540593057295" expanded="false" signature="6:116" ph="..." />
-            <marker date="1540593057295" expanded="true" signature="160:418" ph="{...}" />
-            <marker date="1540593057295" expanded="true" signature="303:351" ph="{...}" />
-            <marker date="1540593057295" expanded="true" signature="384:416" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeSet.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding>
-            <marker date="1540519041475" expanded="false" signature="6:106" ph="..." />
-            <marker date="1540519041475" expanded="true" signature="145:711" ph="{...}" />
-            <marker date="1540519041475" expanded="true" signature="377:414" ph="{...}" />
-            <marker date="1540519041475" expanded="true" signature="440:709" ph="{...}" />
-            <marker date="1540519041475" expanded="true" signature="541:654" ph="{...}" />
+            <marker date="1540524113912" expanded="true" signature="103:416" ph="{...}" />
+            <marker date="1540524113912" expanded="true" signature="219:414" ph="{...}" />
+            <marker date="1540524113912" expanded="true" signature="255:408" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -771,38 +742,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CollectCoins.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="165">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <marker date="1540524113912" expanded="true" signature="103:416" ph="{...}" />
-            <marker date="1540524113912" expanded="true" signature="219:414" ph="{...}" />
-            <marker date="1540524113912" expanded="true" signature="255:408" ph="{...}" />
+            <marker date="1540593057295" expanded="false" signature="6:116" ph="..." />
+            <marker date="1540593057295" expanded="true" signature="160:418" ph="{...}" />
+            <marker date="1540593057295" expanded="true" signature="303:351" ph="{...}" />
+            <marker date="1540593057295" expanded="true" signature="384:416" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SwitchScenes.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateCoins.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <marker date="1540591859614" expanded="false" signature="6:164" ph="..." />
+            <marker date="1540591859614" expanded="true" signature="206:477" ph="{...}" />
+            <marker date="1540591859614" expanded="true" signature="288:313" ph="{...}" />
+            <marker date="1540591859614" expanded="true" signature="397:474" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameStateManager.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
-            <marker date="1540596811637" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540596811637" expanded="true" signature="123:227" ph="{...}" />
-            <marker date="1540596811637" expanded="true" signature="171:225" ph="{...}" />
+            <marker date="1540524002135" expanded="true" signature="138:700" ph="{...}" />
+            <marker date="1540524002135" expanded="true" signature="302:390" ph="{...}" />
+            <marker date="1540524002135" expanded="true" signature="451:698" ph="{...}" />
+            <marker date="1540524002135" expanded="true" signature="458:567" ph="/* if score is greater than 5, set didWin equal to true ... */" />
+            <marker date="1540524002135" expanded="true" signature="604:640" ph="{...}" />
+            <marker date="1540524002135" expanded="true" signature="658:695" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/FallingCoins.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/TimeSet.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        <state relative-caret-position="240">
+          <caret line="20" column="36" selection-start-line="20" selection-start-column="36" selection-end-line="20" selection-end-column="36" />
           <folding>
-            <marker date="1540666311593" expanded="false" signature="6:78" ph="..." />
-            <marker date="1540666311593" expanded="true" signature="121:404" ph="{...}" />
-            <marker date="1540666311593" expanded="true" signature="247:278" ph="{...}" />
-            <marker date="1540666311593" expanded="true" signature="305:402" ph="{...}" />
+            <marker date="1540519041475" expanded="false" signature="6:106" ph="..." />
+            <marker date="1540519041475" expanded="true" signature="145:711" ph="{...}" />
+            <marker date="1540519041475" expanded="true" signature="377:414" ph="{...}" />
+            <marker date="1540519041475" expanded="true" signature="440:709" ph="{...}" />
+            <marker date="1540519041475" expanded="true" signature="541:654" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CreateMultCoins.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="61" lean-forward="true" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
+          <folding>
+            <marker date="1540841874956" expanded="false" signature="6:78" ph="..." />
+            <marker date="1540841874956" expanded="true" signature="124:497" ph="{...}" />
+            <marker date="1540841874956" expanded="true" signature="247:495" ph="{...}" />
+            <marker date="1540841874956" expanded="true" signature="359:489" ph="{...}" />
           </folding>
         </state>
       </provider>
