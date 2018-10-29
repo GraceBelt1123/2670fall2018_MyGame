@@ -39,6 +39,8 @@
     <dwg name="34"/>
     <dwg name="35"/>
     <dwg name="36"/>
+    <dwg name="37"/>
+    <dwg name="38"/>
    </drawings>
   </element>
   <element id="8" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -96,9 +98,10 @@
      <elementSeq exposures="37" val="30" id="6"/>
      <elementSeq exposures="38" val="31" id="6"/>
      <elementSeq exposures="39" val="32" id="6"/>
-     <elementSeq exposures="40" val="33" id="6"/>
-     <elementSeq exposures="41-42" val="35" id="6"/>
-     <elementSeq exposures="43" val="36" id="6"/>
+     <elementSeq exposures="40-41" val="33" id="6"/>
+     <elementSeq exposures="42" val="35" id="6"/>
+     <elementSeq exposures="43-44" val="36" id="6"/>
+     <elementSeq exposures="45" val="37" id="6"/>
     </column>
     <column type="0" name="Drawing_2" displayOrder="2" width="100" anonymous="true" id="8">
      <elementSeq exposures="1-48" val="1" id="8"/>

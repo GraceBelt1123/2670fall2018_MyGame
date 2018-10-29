@@ -1,7 +1,7 @@
 ToonBoomAnimationInc PaletteFile 2
 Solid    Black                      0x094ec5fc76c00d7e   0   0   0 255
-Solid    White                      0x094ec5fc76c00d80 255 255 255 255
 Solid    Red                        0x094ec5fc76c00d82 153 245 195 255
+Solid    White                      0x094ec5fc76c00d80 255 255 255 255
 Solid    Green                      0x094ec5fc76c00d84   0  22 197 255
 Solid    iblack                     0x0956392c636ce005   0   0  54 255
 Solid    "Vectorized Line"          0x0000000000000003   0   0   0 255
@@ -11,5 +11,6 @@ Gradient "New 0"                    0x094ec5fc76c02b9b Linear
 Solid    "New 1"                    0x094ec5fc76c02c4a   0 175 239 255
 Solid    iblue                      0x0956392c6368e896   0   1 102 255
 Solid    Blue                       0x094ec5fc76c00d86   0 171 223 255
-Solid    "New 2"                    0x0956530141164527 108 141 156 255
-Solid    "New 3"                    0x0956530141174268  99 112 118 255
+Solid    "New 2"                    0x0956530141164527   0  69 140 255
+Solid    "New 3"                    0x0956530141174268  87 109 124 255
+Solid    "New 4"                    0x0956530141199550  79  97 133 255
