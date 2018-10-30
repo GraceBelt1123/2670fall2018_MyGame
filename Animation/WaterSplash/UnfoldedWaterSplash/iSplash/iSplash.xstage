@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.1 build 12463 2017-04-10 10:58:55" version="1401" build="12463" creator="harmony">
  <elements>
-<<<<<<< Updated upstream
-  <element id="6" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="1" elementName="Drawing_1" elementFolder="Drawing_1.1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
+  <element id="2" elementName="Drawing_2" elementFolder="Drawing_2.2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
+  <element id="3" elementName="Drawing" elementFolder="Drawing.3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
@@ -44,140 +53,73 @@
     <dwg name="38"/>
    </drawings>
   </element>
-  <element id="8" elementName="Drawing_2" elementFolder="Drawing_2" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="1"/>
-   </drawings>
-  </element>
-  <element id="9" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="1"/>
-   </drawings>
-  </element>
-=======
-  <element id="3" elementName="WaterSplash" elementFolder="WaterSplash" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
->>>>>>> Stashed changes
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
-  <resolution name="HDTV_1080p24" size="1920,1080" fovFit="VerticalFitFov" fov="41.112090439166927" projection="PerspectiveProjection"/>
+  <resolution size="720,540" fovFit="CustomFov" fov="41.112000000000002" projection="PerspectiveProjection"/>
   <framerate val="24"/>
   <zdragging val="true"/>
-  <zOrderCompatibilityWith7_3 val="false"/>
-  <pixelPerModelUnitForBitmapLayers val="0.28800000000000009"/>
-  <canvasForBitmapLayers size="3840,2160"/>
+  <zOrderCompatibilityWith7_3 val="true"/>
+  <pixelPerModelUnitForBitmapLayers val="0.28799999999999998"/>
+  <canvasForBitmapLayers size="65536,65536"/>
   <cameraInSymbols val="true"/>
   <scaleFactor val="1"/>
  </options>
  <timelineMarkers/>
  <scenes>
-  <scene name="Top" id="094ec5fc76c00d72" nbframes="87">
+  <scene name="Top" id="0957d836ea600a15" nbframes="38">
    <columns>
-<<<<<<< Updated upstream
-    <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="6">
-     <elementSeq exposures="1" val="1" id="6"/>
-     <elementSeq exposures="2" val="2" id="6"/>
-     <elementSeq exposures="3" val="3" id="6"/>
-     <elementSeq exposures="4" val="19" id="6"/>
-     <elementSeq exposures="5" val="20" id="6"/>
-     <elementSeq exposures="6" val="21" id="6"/>
-     <elementSeq exposures="7" val="8" id="6"/>
-     <elementSeq exposures="8-9" val="9" id="6"/>
-     <elementSeq exposures="10-11" val="10" id="6"/>
-     <elementSeq exposures="12-13" val="11" id="6"/>
-     <elementSeq exposures="14" val="12" id="6"/>
-     <elementSeq exposures="15" val="13" id="6"/>
-     <elementSeq exposures="16" val="14" id="6"/>
-     <elementSeq exposures="17" val="15" id="6"/>
-     <elementSeq exposures="18-19" val="16" id="6"/>
-     <elementSeq exposures="20-21" val="17" id="6"/>
-     <elementSeq exposures="22-23" val="18" id="6"/>
-     <elementSeq exposures="24-25" val="22" id="6"/>
-     <elementSeq exposures="26-27" val="23" id="6"/>
-     <elementSeq exposures="28-29" val="24" id="6"/>
-     <elementSeq exposures="30-31" val="25" id="6"/>
-     <elementSeq exposures="32-33" val="26" id="6"/>
-     <elementSeq exposures="34" val="27" id="6"/>
-     <elementSeq exposures="35" val="28" id="6"/>
-     <elementSeq exposures="36" val="29" id="6"/>
-     <elementSeq exposures="37" val="30" id="6"/>
-     <elementSeq exposures="38" val="31" id="6"/>
-     <elementSeq exposures="39" val="32" id="6"/>
-     <elementSeq exposures="40-41" val="33" id="6"/>
-     <elementSeq exposures="42" val="35" id="6"/>
-     <elementSeq exposures="43-44" val="36" id="6"/>
-     <elementSeq exposures="45" val="37" id="6"/>
+    <column type="0" name="ATV-0957D836EA601992" displayOrder="3" width="100" anonymous="true" id="1">
+     <elementSeq exposures="1-38" val="1" id="1"/>
     </column>
-    <column type="0" name="Drawing_2" displayOrder="2" width="100" anonymous="true" id="8">
-     <elementSeq exposures="1-48" val="1" id="8"/>
+    <column type="0" name="ATV-0957D836EA601AD6" displayOrder="2" width="100" anonymous="true" id="2">
+     <elementSeq exposures="1-38" val="1" id="2"/>
     </column>
-    <column type="0" name="Drawing_1" displayOrder="3" width="100" anonymous="true" id="9">
-     <elementSeq exposures="1-2,3-48" val="1" id="9"/>
+    <column type="0" name="ATV-0957D836EA601BE3" displayOrder="1" width="100" anonymous="true" id="3">
+     <elementSeq exposures="1" val="1" id="3"/>
+     <elementSeq exposures="2" val="2" id="3"/>
+     <elementSeq exposures="3" val="3" id="3"/>
+     <elementSeq exposures="4" val="8" id="3"/>
+     <elementSeq exposures="5" val="9" id="3"/>
+     <elementSeq exposures="6" val="10" id="3"/>
+     <elementSeq exposures="7" val="11" id="3"/>
+     <elementSeq exposures="8" val="12" id="3"/>
+     <elementSeq exposures="9" val="13" id="3"/>
+     <elementSeq exposures="10" val="14" id="3"/>
+     <elementSeq exposures="11" val="15" id="3"/>
+     <elementSeq exposures="12" val="16" id="3"/>
+     <elementSeq exposures="13" val="17" id="3"/>
+     <elementSeq exposures="14" val="18" id="3"/>
+     <elementSeq exposures="15" val="19" id="3"/>
+     <elementSeq exposures="16" val="20" id="3"/>
+     <elementSeq exposures="17" val="21" id="3"/>
+     <elementSeq exposures="18" val="22" id="3"/>
+     <elementSeq exposures="19" val="23" id="3"/>
+     <elementSeq exposures="20" val="24" id="3"/>
+     <elementSeq exposures="21" val="25" id="3"/>
+     <elementSeq exposures="22" val="26" id="3"/>
+     <elementSeq exposures="23" val="27" id="3"/>
+     <elementSeq exposures="24" val="28" id="3"/>
+     <elementSeq exposures="25" val="29" id="3"/>
+     <elementSeq exposures="26" val="30" id="3"/>
+     <elementSeq exposures="27" val="31" id="3"/>
+     <elementSeq exposures="28" val="32" id="3"/>
+     <elementSeq exposures="29" val="33" id="3"/>
+     <elementSeq exposures="30" val="34" id="3"/>
+     <elementSeq exposures="31" val="35" id="3"/>
+     <elementSeq exposures="32" val="36" id="3"/>
+     <elementSeq exposures="33" val="37" id="3"/>
+     <elementSeq exposures="34" val="38" id="3"/>
     </column>
-=======
-    <column type="0" name="WaterSplash" displayOrder="1" width="100" anonymous="true" id="3"/>
->>>>>>> Stashed changes
    </columns>
    <options>
-    <defaultDisplay val="Display"/>
+    <defaultDisplay val="Unconnected_Display"/>
    </options>
    <rootgroup name="Top">
     <options>
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,0" publishUnderTab="Composite">
-      <options>
-       <version val="1"/>
-       <collapsed val="false"/>
-      </options>
-      <attrs>
-       <compositeMode val="compositeBitmap"/>
-       <flattenOutput val="true"/>
-       <flattenVector val="false"/>
-       <composite2d val="false"/>
-       <composite3d val="false"/>
-       <outputZ val="LEFTMOST"/>
-       <outputZInputPort val="1"/>
-       <applyFocus val="true"/>
-       <multiplier val="1" defaultValue="1"/>
-       <tvgPalette val="compositedPalette"/>
-       <mergeVector val="false"/>
-      </attrs>
-     </module>
-     <module type="DISPLAY" name="Display" pos="50,50,0" publishUnderTab="Display">
-      <options>
-       <version val="1"/>
-       <collapsed val="false"/>
-      </options>
-     </module>
-     <module type="WRITE" name="Write" pos="-50,50,0" publishUnderTab="Write">
-      <options>
-       <version val="1"/>
-       <collapsed val="false"/>
-      </options>
-      <attrs>
-       <exportToMovie val="false"/>
-       <drawingName val="frames/final-"/>
-       <moviePath val="frames/output"/>
-       <movieAudio/>
-       <movieVideo/>
-       <movieVideoaudio/>
-       <leadingZeros val="3"/>
-       <start val="1"/>
-       <drawingType val="TGA"/>
-       <enabling>
-        <filter val="ALWAYS"/>
-        <filterName/>
-        <filterResX val="720"/>
-        <filterResY val="540"/>
-       </enabling>
-       <compositePartitioning val="NoCompositePartitioning"/>
-       <zPartitionRange val="1" defaultValue="1"/>
-       <cleanUpPartitionFolders val="true"/>
-      </attrs>
-     </module>
-<<<<<<< Updated upstream
      <module type="READ" name="Drawing" pos="0,0,0" publishUnderTab="Drawing">
       <options>
        <version val="1"/>
@@ -238,7 +180,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="Drawing">
+        <element col="ATV-0957D836EA601BE3">
          <layer/>
         </element>
         <customName>
@@ -257,7 +199,7 @@
        <underlayArtDrawingMode val="VectorDrawingMode"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
+       <applyMatteToColor val="W"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
@@ -277,7 +219,7 @@
        <noClipping val="false"/>
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -342,7 +284,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-        <element col="Drawing_2">
+        <element col="ATV-0957D836EA601AD6">
          <layer/>
         </element>
         <customName>
@@ -361,7 +303,7 @@
        <underlayArtDrawingMode val="VectorDrawingMode"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
+       <applyMatteToColor val="W"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
@@ -381,7 +323,7 @@
        <noClipping val="false"/>
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
       </attrs>
@@ -390,12 +332,6 @@
       <options>
        <version val="1"/>
        <collapsed val="false"/>
-=======
-     <module type="READ" name="WaterSplash" pos="0,0,0" publishUnderTab="WaterSplash">
-      <options>
-       <version val="1"/>
-       <collapsed val="false"/>
->>>>>>> Stashed changes
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -452,11 +388,7 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
-<<<<<<< Updated upstream
-        <element col="Drawing_1">
-=======
-        <element col="WaterSplash">
->>>>>>> Stashed changes
+        <element col="ATV-0957D836EA601992">
          <layer/>
         </element>
         <customName>
@@ -475,7 +407,7 @@
        <underlayArtDrawingMode val="VectorDrawingMode"/>
        <readColor val="true"/>
        <readTransparency val="true"/>
-       <applyMatteToColor val="N"/>
+       <applyMatteToColor val="W"/>
        <enableLineTexture val="true"/>
        <antialiasingQuality val="HIGH"/>
        <antialiasingExponent val="1" defaultValue="1"/>
@@ -495,38 +427,58 @@
        <noClipping val="false"/>
        <xClipFactor val="0"/>
        <yClipFactor val="0"/>
-       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <alignmentRule val="CENTER_FIT"/>
        <morphingVelo val="0" defaultValue="0"/>
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="COMPOSITE" name="Composite" pos="0,0,0" publishUnderTab="Composite">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <compositeMode val="compositeBitmap"/>
+       <flattenOutput val="true"/>
+       <flattenVector val="false"/>
+       <composite2d val="false"/>
+       <composite3d val="false"/>
+       <outputZ val="LEFTMOST"/>
+       <outputZInputPort val="1"/>
+       <applyFocus val="true"/>
+       <multiplier val="1" defaultValue="1"/>
+       <tvgPalette val="compositedPalette"/>
+       <mergeVector val="false"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
-     <link out="Composite" in="Display"/>
-     <link out="Composite" in="Write"/>
-<<<<<<< Updated upstream
      <link out="Drawing" in="Composite" inport="2"/>
      <link out="Drawing_2" in="Composite" inport="1"/>
      <link out="Drawing_1" in="Composite" inport="0"/>
-=======
-     <link out="WaterSplash" in="Composite"/>
->>>>>>> Stashed changes
     </linkedlist>
    </rootgroup>
-   <metas>
-    <meta type="guideList" name="guideList" creator="Harmony Advanced" version="1.0">
-     <guideList selectedGuide="-1"/>
-    </meta>
-   </metas>
+  </scene>
+  <scene name="Top" id="0957d836ea600a16" nbframes="1">
+   <columns/>
+   <options>
+    <defaultDisplay val="Unconnected_Display"/>
+   </options>
+   <rootgroup name="Top">
+    <options>
+     <collapsed val="false"/>
+    </options>
+   </rootgroup>
   </scene>
  </scenes>
  <symbols>
   <folder name="Symbols">
-   <scene id="094ec5fc76c00d72"/>
-   <folder name="New Folder"/>
+   <scene id="0957d836ea600a15"/>
+   <scene id="0957d836ea600a16"/>
   </folder>
  </symbols>
  <timeline>
-  <scene id="094ec5fc76c00d72"/>
+  <scene id="0957d836ea600a15"/>
+  <scene id="0957d836ea600a16"/>
  </timeline>
 </project>

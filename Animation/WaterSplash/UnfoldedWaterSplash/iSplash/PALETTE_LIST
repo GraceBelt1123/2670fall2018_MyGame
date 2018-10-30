@@ -1,8 +1,16 @@
 ToonBoomAnimationInc PaletteList 1
 palette-library/iSplash LINK "F:/Animation/UnfoldedWaterSplash/iSplash/palette-library/iSplash.plt"
 palette-library/iSplash_pencil_texture LINK "F:/Animation/UnfoldedWaterSplash/iSplash/palette-library/iSplash_pencil_texture.plt"
-<<<<<<< Updated upstream
-palette-library/penstyle_opacity LINK "C:/Users/10783188/Desktop/Animation/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/penstyle_opacity.plt"
-=======
+_______ LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/_______.plt"
+Updated LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/Updated.plt"
+upstream LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/upstream.plt"
 palette-library/penstyle_opacity LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/penstyle_opacity.plt"
->>>>>>> Stashed changes
+"=======" LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/=======.plt"
+Stashed LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/Stashed.plt"
+changes LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/changes.plt"
+palette-library/_______ LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/_______.plt"
+palette-library/Updated LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/Updated.plt"
+palette-library/upstream LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/upstream.plt"
+"palette-library/=======" LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/=======.plt"
+palette-library/Stashed LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/Stashed.plt"
+palette-library/changes LINK "C:/Users/10783188/Desktop/Github/2670fall2018_MyGame/Animation/WaterSplash/UnfoldedWaterSplash/iSplash/palette-library/changes.plt"
