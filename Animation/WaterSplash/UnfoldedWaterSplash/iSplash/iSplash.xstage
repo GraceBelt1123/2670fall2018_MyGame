@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project source="Harmony Advanced (HarmonyAdvanced.exe) version 14.0.1 build 12463 2017-04-10 10:58:55" version="1401" build="12463" creator="harmony">
  <elements>
+<<<<<<< Updated upstream
   <element id="6" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
@@ -53,6 +54,9 @@
     <dwg name="1"/>
    </drawings>
   </element>
+=======
+  <element id="3" elementName="WaterSplash" elementFolder="WaterSplash" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+>>>>>>> Stashed changes
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -69,6 +73,7 @@
  <scenes>
   <scene name="Top" id="094ec5fc76c00d72" nbframes="87">
    <columns>
+<<<<<<< Updated upstream
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
      <elementSeq exposures="2" val="2" id="6"/>
@@ -109,6 +114,9 @@
     <column type="0" name="Drawing_1" displayOrder="3" width="100" anonymous="true" id="9">
      <elementSeq exposures="1-2,3-48" val="1" id="9"/>
     </column>
+=======
+    <column type="0" name="WaterSplash" displayOrder="1" width="100" anonymous="true" id="3"/>
+>>>>>>> Stashed changes
    </columns>
    <options>
     <defaultDisplay val="Display"/>
@@ -169,6 +177,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
+<<<<<<< Updated upstream
      <module type="READ" name="Drawing" pos="0,0,0" publishUnderTab="Drawing">
       <options>
        <version val="1"/>
@@ -381,6 +390,12 @@
       <options>
        <version val="1"/>
        <collapsed val="false"/>
+=======
+     <module type="READ" name="WaterSplash" pos="0,0,0" publishUnderTab="WaterSplash">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+>>>>>>> Stashed changes
       </options>
       <attrs>
        <enable3d val="false"/>
@@ -437,7 +452,11 @@
        <ikStiffness val="1" defaultValue="1"/>
        <drawing>
         <elementMode val="true"/>
+<<<<<<< Updated upstream
         <element col="Drawing_1">
+=======
+        <element col="WaterSplash">
+>>>>>>> Stashed changes
          <layer/>
         </element>
         <customName>
@@ -485,9 +504,13 @@
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
+<<<<<<< Updated upstream
      <link out="Drawing" in="Composite" inport="2"/>
      <link out="Drawing_2" in="Composite" inport="1"/>
      <link out="Drawing_1" in="Composite" inport="0"/>
+=======
+     <link out="WaterSplash" in="Composite"/>
+>>>>>>> Stashed changes
     </linkedlist>
    </rootgroup>
    <metas>
