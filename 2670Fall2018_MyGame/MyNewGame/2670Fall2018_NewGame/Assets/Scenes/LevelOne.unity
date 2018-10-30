@@ -681,9 +681,8 @@ GameObject:
   - component: {fileID: 405641968}
   - component: {fileID: 405641967}
   - component: {fileID: 405641966}
-  - component: {fileID: 405641965}
   m_Layer: 5
-  m_Name: Greater/Less
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -708,27 +707,6 @@ RectTransform:
   m_AnchoredPosition: {x: -266.9, y: 209}
   m_SizeDelta: {x: 198.5, y: 65.1}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &405641965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 405641963}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0067618fc2eee064a9bd223c23d059bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Greater: {fileID: 389114618}
-  Less: {fileID: 552989173}
-  LuckScore: 1
-  text: {fileID: 1095895433}
-  whatscore: 0
-  endLuck:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!114 &405641966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -767,18 +745,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 405641967}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 405641965}
-        m_MethodName: EndScore
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &405641967
@@ -1374,7 +1341,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 
+  m_Text: "Score: \n"
 --- !u!222 &1095895434
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1578,7 +1545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a741a68c9463994bb13443388bde0df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Coins: {fileID: 0}
+  Coins: {fileID: 1901480383431520, guid: 9775b739101e5844f9316adfd8f512ba, type: 2}
   Trigger: {fileID: 1153927362}
 --- !u!1 &1171082149
 GameObject:
