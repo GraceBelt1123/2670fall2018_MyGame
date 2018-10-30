@@ -15,5 +15,6 @@ public class CollectCoins : MonoBehaviour {
 
     public void CoinCollected()
     {
+        
     }
 }
