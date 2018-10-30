@@ -7,7 +7,6 @@ public class GameStateManager : MonoBehaviour {
 	public GameObject winText;
 	public GameObject loseText;
 	public bool didWin;
-	public int score;
 
 
 	//do stuff when the timer is started
