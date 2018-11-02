@@ -5,18 +5,30 @@ using UnityEngine;
 public class CreateMultCoins : MonoBehaviour
 {
     //This is to make Multiply Coins to be kept falling down above. 
-    //public GameObject Prefab;
-    
-    void Start()
+    public GameObject Prefab;
+    public GameObject spawnPoint;
+    public float timeToWait = 1;
+    public bool canCreateCoins;
+
+    public void StartCoinCreation()
     {
-       // GameObject prefab = Prefab.Load("CoinOne") as GameObject; Not this one. 
-       
-        
-        //for (int i = 0; i < 100; i++)
+        canCreateCoins = true;
+        StartCoroutine(CoinCreation());
+    }
+
+    public void EndCoinCreation()
+    {
+        canCreateCoins = false;
+    }
+
+    IEnumerator CoinCreation()
+    {
+        while (canCreateCoins)
         {
-           //GameObject go = Instantiate(Prefab);
-            //go.transform.position = new Vector3(0, i * 5, 0);
+            Instantiate(Prefab, spawnPoint.transform.position, Quaternion.identity);
+            yield return new WaitForSeconds(timeToWait);
         }
+        
     }
 }
 
