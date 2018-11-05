@@ -15,9 +15,13 @@
           <e p="Falling.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
+          <e p="GenerateObjects.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="Objects.cs" t="Include" />
+          <e p="PurchasableObject.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="secondFallingCoins.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
           <e p="SwitchScenes.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
         </e>

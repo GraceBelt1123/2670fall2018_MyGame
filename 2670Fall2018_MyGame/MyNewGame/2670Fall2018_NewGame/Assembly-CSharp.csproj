@@ -61,9 +61,13 @@
     <Compile Include="Assets\Scripts\Falling.cs" />
     <Compile Include="Assets\Scripts\FallingCoins.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />
+    <Compile Include="Assets\Scripts\GenerateObjects.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\Objects.cs" />
+    <Compile Include="Assets\Scripts\PurchasableObject.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\secondFallingCoins.cs" />
+    <Compile Include="Assets\Scripts\Store.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />
     <Compile Include="Assets\Scripts\TimeSet.cs" />
     <Reference Include="UnityEditor.StandardEvents">
