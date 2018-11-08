@@ -54,17 +54,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\Actions.cs" />
     <Compile Include="Assets\Scripts\CollectCoins.cs" />
+    <Compile Include="Assets\Scripts\ColorController.cs" />
     <Compile Include="Assets\Scripts\CreateCoins.cs" />
     <Compile Include="Assets\Scripts\CreateMultCoins.cs" />
     <Compile Include="Assets\Scripts\DestoryCoins.cs" />
     <Compile Include="Assets\Scripts\Falling.cs" />
     <Compile Include="Assets\Scripts\FallingCoins.cs" />
+    <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />
-    <Compile Include="Assets\Scripts\GenerateObjects.cs" />
+    <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Scripts\ObjectGenerator.cs" />
     <Compile Include="Assets\Scripts\Objects.cs" />
+    <Compile Include="Assets\Scripts\PerCounter.cs" />
     <Compile Include="Assets\Scripts\PurchasableObject.cs" />
+    <Compile Include="Assets\Scripts\PurchaseableObjects.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\secondFallingCoins.cs" />
     <Compile Include="Assets\Scripts\Store.cs" />
