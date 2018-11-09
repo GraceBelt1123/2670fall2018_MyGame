@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="ActionObject.cs" t="Include" />
           <e p="Actions.cs" t="Include" />
+          <e p="AirBehavior.cs" t="Include" />
           <e p="AnyEvent.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
           <e p="ColorController.cs" t="Include" />
