@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\ActionObject.cs" />
     <Compile Include="Assets\Scripts\Actions.cs" />
     <Compile Include="Assets\Scripts\CollectCoins.cs" />
     <Compile Include="Assets\Scripts\ColorController.cs" />
@@ -76,6 +77,8 @@
     <Compile Include="Assets\Scripts\Store.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />
     <Compile Include="Assets\Scripts\TimeSet.cs" />
+    <Compile Include="Assets\Scripts\UpdateText.cs" />
+    <Compile Include="Assets\Scripts\UserInput.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

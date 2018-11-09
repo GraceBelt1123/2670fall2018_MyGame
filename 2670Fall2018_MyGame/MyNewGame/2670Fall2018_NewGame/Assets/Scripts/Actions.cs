@@ -1,16 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class Actions : MonoBehaviour {
+[CreateAssetMenu(menuName = "Actions/ActionObject")]
+public class ActionObject : ScriptableObject
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public UnityAction Raise;
 }
