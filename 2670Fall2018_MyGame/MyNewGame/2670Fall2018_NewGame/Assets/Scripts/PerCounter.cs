@@ -7,10 +7,13 @@ public class PerCounter : MonoBehaviour
 {
     public UnityEvent OnCount;
     public FloatData Seconds;
-    
-    IEnumerable Start ()
+
+    IEnumerable Start()
     {
-        OnCount.Invoke();
-        yield return new WaitForSeconds(Seconds.Value);
+        while (true)
+        {
+            OnCount.Invoke();
+            yield return new WaitForSeconds(Seconds.Value);
+        }
     }
 }

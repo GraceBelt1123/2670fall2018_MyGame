@@ -9,8 +9,6 @@ public class IntData : MonoBehaviour
 
 	public void UpdateValue(int i)
 	{
-		Value += i;
+		Value += i; 
 	}
-
-
 }

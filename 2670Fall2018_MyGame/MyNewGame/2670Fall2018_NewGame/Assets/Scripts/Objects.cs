@@ -6,7 +6,4 @@ public class Objects : ScriptableObject
 {
 
 	public List<Object> ObjectList;
-	
-
-
 }
