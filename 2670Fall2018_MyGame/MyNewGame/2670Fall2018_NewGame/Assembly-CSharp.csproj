@@ -56,6 +56,7 @@
     <Compile Include="Assets\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\ActionObject.cs" />
     <Compile Include="Assets\Scripts\Actions.cs" />
+    <Compile Include="Assets\Scripts\AnyEvent.cs" />
     <Compile Include="Assets\Scripts\CollectCoins.cs" />
     <Compile Include="Assets\Scripts\ColorController.cs" />
     <Compile Include="Assets\Scripts\CreateCoins.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Assets\Scripts\Falling.cs" />
     <Compile Include="Assets\Scripts\FallingCoins.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
+    <Compile Include="Assets\Scripts\GameAction.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />

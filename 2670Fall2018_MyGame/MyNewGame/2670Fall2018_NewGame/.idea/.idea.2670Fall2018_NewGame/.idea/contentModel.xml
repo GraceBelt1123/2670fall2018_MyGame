@@ -10,6 +10,7 @@
         <e p="Scripts" t="Include">
           <e p="ActionObject.cs" t="Include" />
           <e p="Actions.cs" t="Include" />
+          <e p="AnyEvent.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
           <e p="ColorController.cs" t="Include" />
           <e p="CreateCoins.cs" t="Include" />
@@ -18,6 +19,7 @@
           <e p="Falling.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
