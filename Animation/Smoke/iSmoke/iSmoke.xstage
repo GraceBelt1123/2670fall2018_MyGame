@@ -46,6 +46,19 @@
     <dwg name="24"/>
     <dwg name="25"/>
     <dwg name="26"/>
+    <dwg name="27"/>
+    <dwg name="28"/>
+    <dwg name="29"/>
+    <dwg name="30"/>
+    <dwg name="31"/>
+    <dwg name="32"/>
+    <dwg name="33"/>
+    <dwg name="34"/>
+    <dwg name="35"/>
+    <dwg name="36"/>
+    <dwg name="37"/>
+    <dwg name="38"/>
+    <dwg name="39"/>
    </drawings>
   </element>
   <element id="7" elementName="Drawing_1" elementFolder="Drawing_1.7" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -92,6 +105,19 @@
      <elementSeq exposures="45" val="24" id="5"/>
      <elementSeq exposures="46" val="25" id="5"/>
      <elementSeq exposures="47" val="26" id="5"/>
+     <elementSeq exposures="48" val="27" id="5"/>
+     <elementSeq exposures="49" val="28" id="5"/>
+     <elementSeq exposures="50" val="29" id="5"/>
+     <elementSeq exposures="51" val="30" id="5"/>
+     <elementSeq exposures="52" val="31" id="5"/>
+     <elementSeq exposures="53" val="32" id="5"/>
+     <elementSeq exposures="54" val="33" id="5"/>
+     <elementSeq exposures="55" val="34" id="5"/>
+     <elementSeq exposures="56" val="35" id="5"/>
+     <elementSeq exposures="57" val="36" id="5"/>
+     <elementSeq exposures="58" val="37" id="5"/>
+     <elementSeq exposures="59" val="38" id="5"/>
+     <elementSeq exposures="60" val="39" id="5"/>
     </column>
     <column type="0" name="Drawing_1" displayOrder="2" width="100" anonymous="true" id="7">
      <elementSeq exposures="39-48" val="1" id="7"/>
