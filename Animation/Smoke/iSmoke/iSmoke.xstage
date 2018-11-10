@@ -64,6 +64,12 @@
   <element id="7" elementName="Drawing_1" elementFolder="Drawing_1.7" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
+   </drawings>
+  </element>
+  <element id="8" elementName="Shot" elementFolder="Shot" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
    </drawings>
   </element>
  </elements>
@@ -96,31 +102,13 @@
      <elementSeq exposures="30-32" val="11" id="5"/>
      <elementSeq exposures="33-35" val="12" id="5"/>
      <elementSeq exposures="36-37" val="13" id="5"/>
-     <elementSeq exposures="38-39" val="14" id="5"/>
-     <elementSeq exposures="40" val="15" id="5"/>
-     <elementSeq exposures="41" val="16" id="5"/>
-     <elementSeq exposures="42" val="17" id="5"/>
-     <elementSeq exposures="43" val="22" id="5"/>
-     <elementSeq exposures="44" val="23" id="5"/>
-     <elementSeq exposures="45" val="24" id="5"/>
-     <elementSeq exposures="46" val="25" id="5"/>
-     <elementSeq exposures="47" val="26" id="5"/>
-     <elementSeq exposures="48" val="27" id="5"/>
-     <elementSeq exposures="49" val="28" id="5"/>
-     <elementSeq exposures="50" val="29" id="5"/>
-     <elementSeq exposures="51" val="30" id="5"/>
-     <elementSeq exposures="52" val="31" id="5"/>
-     <elementSeq exposures="53" val="32" id="5"/>
-     <elementSeq exposures="54" val="33" id="5"/>
-     <elementSeq exposures="55" val="34" id="5"/>
-     <elementSeq exposures="56" val="35" id="5"/>
-     <elementSeq exposures="57" val="36" id="5"/>
-     <elementSeq exposures="58" val="37" id="5"/>
-     <elementSeq exposures="59" val="38" id="5"/>
-     <elementSeq exposures="60" val="39" id="5"/>
+     <elementSeq exposures="38" val="14" id="5"/>
     </column>
-    <column type="0" name="Drawing_1" displayOrder="2" width="100" anonymous="true" id="7">
-     <elementSeq exposures="39-48" val="1" id="7"/>
+    <column type="0" name="Drawing_1" displayOrder="3" width="100" anonymous="true" id="7">
+     <elementSeq exposures="1-38" val="2" id="7"/>
+    </column>
+    <column type="0" name="Shot" displayOrder="2" width="100" anonymous="true" id="8">
+     <elementSeq exposures="1-38" val="1" id="8"/>
     </column>
    </columns>
    <options>
@@ -211,6 +199,110 @@
        <drawing>
         <elementMode val="true"/>
         <element col="Drawing">
+         <layer/>
+        </element>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12" defaultValue="12"/>
+        </customName>
+       </drawing>
+       <readOverlay val="true"/>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readUnderlay val="true"/>
+       <overlayArtDrawingMode val="VectorDrawingMode"/>
+       <lineArtDrawingMode val="VectorDrawingMode"/>
+       <colorArtDrawingMode val="VectorDrawingMode"/>
+       <underlayArtDrawingMode val="VectorDrawingMode"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1" defaultValue="1"/>
+       <opacity val="100" defaultValue="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1" defaultValue="1"/>
+       <addLineArtThickness val="0" defaultValue="0"/>
+       <minLineArtThickness val="0" defaultValue="0"/>
+       <maxLineArtThickness val="0" defaultValue="0"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0" defaultValue="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
+     <module type="READ" name="Shot" pos="0,0,0" publishUnderTab="Shot">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <cameraAlignment val="NO_CAMERA_ALIGNMENT"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1" defaultValue="1"/>
+        <x val="1" defaultValue="1"/>
+        <y val="1" defaultValue="1"/>
+        <z val="1" defaultValue="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0" defaultValue="0"/>
+        <angley val="0" defaultValue="0"/>
+        <anglez val="0" defaultValue="0"/>
+       </rotation>
+       <angle val="0" defaultValue="0"/>
+       <skew val="0" defaultValue="0"/>
+       <pivot>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0" defaultValue="0"/>
+        <y val="0" defaultValue="0"/>
+        <z val="0" defaultValue="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360" defaultValue="-360"/>
+       <maxAngle val="360" defaultValue="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.20000000000000001" defaultValue="0.20000000000000001"/>
+       <ikBoneY val="0" defaultValue="0"/>
+       <ikStiffness val="1" defaultValue="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="Shot">
          <layer/>
         </element>
         <customName>
@@ -360,7 +452,8 @@
      </module>
     </nodeslist>
     <linkedlist>
-     <link out="Drawing" in="Composite" inport="1"/>
+     <link out="Drawing" in="Composite" inport="2"/>
+     <link out="Shot" in="Composite" inport="1"/>
      <link out="Drawing_1" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
