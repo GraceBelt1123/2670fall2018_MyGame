@@ -78,10 +78,10 @@
      <elementSeq exposures="30-32" val="11" id="5"/>
      <elementSeq exposures="33-35" val="12" id="5"/>
      <elementSeq exposures="36-37" val="13" id="5"/>
-     <elementSeq exposures="38" val="14" id="5"/>
+     <elementSeq exposures="38-39" val="14" id="5"/>
      <elementSeq exposures="40" val="15" id="5"/>
      <elementSeq exposures="41" val="16" id="5"/>
-     <elementSeq exposures="42" val="17" id="5"/>
+     <elementSeq exposures="42-43" val="17" id="5"/>
      <elementSeq exposures="44-45" val="18" id="5"/>
      <elementSeq exposures="46" val="19" id="5"/>
      <elementSeq exposures="47" val="20" id="5"/>
