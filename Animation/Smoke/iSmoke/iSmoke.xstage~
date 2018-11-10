@@ -18,11 +18,6 @@
     <dwg name="13"/>
    </drawings>
   </element>
-  <element id="2" elementName="Drawing_1" elementFolder="Drawing_1" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
-   <drawings>
-    <dwg name="1"/>
-   </drawings>
-  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -38,7 +33,6 @@
  </options>
  <timelineMarkers/>
  <scenes>
-<<<<<<< HEAD
   <scene name="Top" id="0957da19559008c8" nbframes="118">
    <columns>
     <column type="0" name="Drawing" displayOrder="1" width="100" anonymous="true" id="1">
@@ -55,19 +49,6 @@
      <elementSeq exposures="32-34" val="11" id="1"/>
      <elementSeq exposures="35-37" val="12" id="1"/>
      <elementSeq exposures="38" val="13" id="1"/>
-=======
-  <scene name="Top" id="0957da19559008c8" nbframes="45">
-   <columns>
-    <column type="0" name="Drawing" displayOrder="2" width="100" anonymous="true" id="1">
-     <elementSeq exposures="1-3" val="1" id="1"/>
-     <elementSeq exposures="4-6" val="2" id="1"/>
-     <elementSeq exposures="7-9" val="3" id="1"/>
-     <elementSeq exposures="10-12" val="4" id="1"/>
-     <elementSeq exposures="13" val="5" id="1"/>
-    </column>
-    <column type="0" name="Drawing_1" displayOrder="1" width="100" anonymous="true" id="2">
-     <elementSeq exposures="1-13" val="1" id="2"/>
->>>>>>> master
     </column>
    </columns>
    <options>
@@ -130,6 +111,8 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
+<<<<<<< HEAD
+=======
      <module type="READ" name="Drawing_1" pos="0,0,0" publishUnderTab="Drawing_1">
       <options>
        <collapsed val="false"/>
@@ -239,6 +222,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+>>>>>>> master
      <module type="READ" name="Drawing" pos="-65,-50,0" publishUnderTab="Drawing">
       <options>
        <collapsed val="false"/>
@@ -352,8 +336,7 @@
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Drawing_1" in="Composite" inport="1"/>
-     <link out="Drawing" in="Composite" inport="0"/>
+     <link out="Drawing" in="Composite"/>
     </linkedlist>
    </rootgroup>
    <metas>
