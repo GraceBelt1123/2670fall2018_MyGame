@@ -8,18 +8,34 @@
       <e p="Assets" t="Include">
         <e p="ButtonHandler.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ActionObject.cs" t="Include" />
+          <e p="Actions.cs" t="Include" />
+          <e p="AirBehavior.cs" t="Include" />
+          <e p="AnyEvent.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
+          <e p="ColorController.cs" t="Include" />
           <e p="CreateCoins.cs" t="Include" />
           <e p="CreateMultCoins.cs" t="Include" />
           <e p="DestoryCoins.cs" t="Include" />
           <e p="Falling.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="ObjectGenerator.cs" t="Include" />
+          <e p="Objects.cs" t="Include" />
+          <e p="PerCounter.cs" t="Include" />
+          <e p="PurchasableObject.cs" t="Include" />
+          <e p="PurchaseableObjects.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="secondFallingCoins.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
           <e p="SwitchScenes.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
+          <e p="UpdateText.cs" t="Include" />
+          <e p="UserInput.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
