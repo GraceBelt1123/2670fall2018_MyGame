@@ -63,11 +63,11 @@
     <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
     <None Include="Assets\ProCore\ProGrids\About\pc_AboutEntry_ProGrids.txt" />
     <None Include="Assets\ProCore\ProGrids\About\changelog.txt" />
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2210Fall2018/Assignments/LeopardSealFilm/Ocean and the Leapard Seal/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2210Fall2018/Assignments/LeopardSealFilm/Ocean and the Leapard Seal/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2210Fall2018/Assignments/LeopardSealFilm/Ocean and the Leapard Seal/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
