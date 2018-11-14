@@ -70,5 +70,6 @@
  </Element>
  <Element Name="Drawing_3" ID="14" Folder="Drawing_3">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
  </Element>
 </SceneVersion>
