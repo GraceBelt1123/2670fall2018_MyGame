@@ -93,6 +93,7 @@
   <element id="14" elementName="Drawing_3" elementFolder="Drawing_3" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
    </drawings>
   </element>
  </elements>
@@ -155,7 +156,8 @@
      <elementSeq exposures="46" val="24" id="13"/>
     </column>
     <column type="0" name="Drawing_3" displayOrder="1" width="100" anonymous="true" id="14">
-     <elementSeq exposures="1-81" val="1" id="14"/>
+     <elementSeq exposures="1-83" val="1" id="14"/>
+     <elementSeq exposures="84" val="2" id="14"/>
     </column>
    </columns>
    <options>
