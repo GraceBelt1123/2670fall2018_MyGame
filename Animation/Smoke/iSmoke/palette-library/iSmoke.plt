@@ -13,3 +13,4 @@ Solid    "New 4"                    0x095a5f6081eb59ab 255   0   0 255
 Solid    "New 0"                    0x095a896b98a15b1d 255 229  79 255
 Solid    "New 0"                    0x095ad0657d14a60d 141 181 174 255
 Solid    "New 1"                    0x095ad0657d14c676 141 141 141 255
+Solid    "New 0"                    0x095bbdb1e2607202   0   0   0 255
