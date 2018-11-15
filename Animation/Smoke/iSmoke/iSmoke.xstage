@@ -231,8 +231,8 @@
      <elementSeq exposures="91-92" val="46" id="13"/>
      <elementSeq exposures="93-94" val="47" id="13"/>
      <elementSeq exposures="95-96" val="48" id="13"/>
-     <elementSeq exposures="97" val="50" id="13"/>
-     <elementSeq exposures="98" val="51" id="13"/>
+     <elementSeq exposures="97-98" val="50" id="13"/>
+     <elementSeq exposures="99" val="51" id="13"/>
     </column>
     <column type="0" name="Drawing_3" displayOrder="3" width="100" anonymous="true" id="14">
      <elementSeq exposures="1-92,93-100,101-113" val="1" id="14"/>
