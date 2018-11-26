@@ -7,18 +7,18 @@ using UnityEngine.Purchasing.Extension;
 public class PurchaseableObjects : ScriptableObject
 {
 
-	public List<PurchasableObject> ObjectList;
+//	public List<PurchasableObject> ObjectList;
 
-	void Start()
-	{
-		for (var index = 0; index < Purchased.ObjectList.Count; index++)
-		{
-			var obj = Purchased.ObjectList[i];
-			obj.CreateItem();
-			if (!obj.Perpetual)
-			{
-				Purchased.ObjectList.Remove(obj);
-			}
-		}
-	}
+	//void Start()
+	//{
+	//	for (var index = 0; index < Purchased.ObjectList.Count; index++)
+	//	{
+	//		var obj = Purchased.ObjectList[i];
+	//		obj.CreateItem();
+	//		if (!obj.Perpetual)
+	//		{
+	//			Purchased.ObjectList.Remove(obj);
+	//		}
+	//	}
+	//}
 }

@@ -54,7 +54,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\ButtonHandler.cs" />
-    <Compile Include="Assets\Scripts\ActionObject.cs" />
     <Compile Include="Assets\Scripts\Actions.cs" />
     <Compile Include="Assets\Scripts\AirBehavior.cs" />
     <Compile Include="Assets\Scripts\AnyEvent.cs" />

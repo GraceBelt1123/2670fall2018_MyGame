@@ -8,7 +8,6 @@
       <e p="Assets" t="Include">
         <e p="ButtonHandler.cs" t="Include" />
         <e p="Scripts" t="Include">
-          <e p="ActionObject.cs" t="Include" />
           <e p="Actions.cs" t="Include" />
           <e p="AirBehavior.cs" t="Include" />
           <e p="AnyEvent.cs" t="Include" />
