@@ -90,19 +90,19 @@
      <elementSeq exposures="27-29" val="22" id="6"/>
      <elementSeq exposures="30" val="1" id="6"/>
      <elementSeq exposures="31,33-34" val="6" id="6"/>
-     <elementSeq exposures="32,38,48-50,57-58,72-74,86-88,90-92,190-191,194-196,199-201" val="7" id="6"/>
-     <elementSeq exposures="35,53,69" val="8" id="6"/>
-     <elementSeq exposures="36,54,70" val="16" id="6"/>
-     <elementSeq exposures="37,55-56,71" val="17" id="6"/>
-     <elementSeq exposures="39,51,94" val="9" id="6"/>
-     <elementSeq exposures="40,52,95" val="10" id="6"/>
+     <elementSeq exposures="32,38,48-50,57-58,103-105,117-119,121-123,190-191,194-196,199-201" val="7" id="6"/>
+     <elementSeq exposures="35,53,100" val="8" id="6"/>
+     <elementSeq exposures="36,54,101" val="16" id="6"/>
+     <elementSeq exposures="37,55-56,102" val="17" id="6"/>
+     <elementSeq exposures="39,51,125" val="9" id="6"/>
+     <elementSeq exposures="40,52,126" val="10" id="6"/>
      <elementSeq exposures="41" val="11" id="6"/>
-     <elementSeq exposures="42-43,46-47,60-61,77-78,85,89,193,197-198" val="12" id="6"/>
-     <elementSeq exposures="44-45,62-64,79-82,93,202" val="13" id="6"/>
-     <elementSeq exposures="59,75-76,96-99" val="15" id="6"/>
-     <elementSeq exposures="67,192" val="14" id="6"/>
-     <elementSeq exposures="83-84" val="19" id="6"/>
-     <elementSeq exposures="100" val="20" id="6"/>
+     <elementSeq exposures="42-43,46-47,60-61,108-109,116,120,193,197-198" val="12" id="6"/>
+     <elementSeq exposures="44-45,62-64,66-85,110-113,124,202" val="13" id="6"/>
+     <elementSeq exposures="59,106-107,127-130" val="15" id="6"/>
+     <elementSeq exposures="86,114-115" val="19" id="6"/>
+     <elementSeq exposures="98,192" val="14" id="6"/>
+     <elementSeq exposures="131" val="20" id="6"/>
     </column>
     <column type="0" name="TestingLips" displayOrder="1" width="100" anonymous="true" id="8"/>
     <column type="0" name="eye" displayOrder="5" width="100" anonymous="true" id="9">
