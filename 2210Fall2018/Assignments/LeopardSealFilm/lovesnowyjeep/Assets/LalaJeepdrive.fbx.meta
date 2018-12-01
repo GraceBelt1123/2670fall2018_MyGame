@@ -383,7 +383,57 @@ ModelImporter:
     4300124: SnowGround3
     7400000: drive
     9500000: //RootNode
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackLine
+    second: {fileID: 2100000, guid: 2743ef834f69e7546a6954cb0b8f7381, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BlackTire
+    second: {fileID: 2100000, guid: ad2867371c00b734cbb90572eefdf1d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BottomLine
+    second: {fileID: 2100000, guid: dbf19950e0e42c143897129c6a4c8cd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontWindow
+    second: {fileID: 2100000, guid: 38522858122c85b4c9ede387922bfc1e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Grey
+    second: {fileID: 2100000, guid: f699bb1cbaf5d834c82955c111d6ec8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: a04abf221a6d6ef45915b5af00a4149a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: 09e2485839ed349449d1455854426e4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock15
+    second: {fileID: 2100000, guid: fb9ce7d4ac31d964e896ae9b19304bcd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Window
+    second: {fileID: 2100000, guid: 1a98a022b8b25e945ba294252916370e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lambert1
+    second: {fileID: 2100000, guid: ce10e763ca3386b4284c30b69246c2c7, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
