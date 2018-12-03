@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemachineDouble-decker", "Assembly-CSharp.csproj", "{60B024CB-20C7-458A-C062-4326AFF0C02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CinemachineDouble-decker", "Assembly-CSharp-Editor.csproj", "{6856F8B9-2A2F-94AC-0A30-CBA749CEB518}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{60B024CB-20C7-458A-C062-4326AFF0C02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B024CB-20C7-458A-C062-4326AFF0C02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B024CB-20C7-458A-C062-4326AFF0C02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B024CB-20C7-458A-C062-4326AFF0C02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6856F8B9-2A2F-94AC-0A30-CBA749CEB518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6856F8B9-2A2F-94AC-0A30-CBA749CEB518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6856F8B9-2A2F-94AC-0A30-CBA749CEB518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6856F8B9-2A2F-94AC-0A30-CBA749CEB518}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

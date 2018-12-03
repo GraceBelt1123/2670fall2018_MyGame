@@ -56,6 +56,7 @@
     <Compile Include="Assets\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\Actions.cs" />
     <Compile Include="Assets\Scripts\AirBehavior.cs" />
+    <Compile Include="Assets\Scripts\Amount.cs" />
     <Compile Include="Assets\Scripts\AnyEvent.cs" />
     <Compile Include="Assets\Scripts\CollectCoins.cs" />
     <Compile Include="Assets\Scripts\ColorController.cs" />
@@ -82,10 +83,10 @@
     <Compile Include="Assets\Scripts\UpdateText.cs" />
     <Compile Include="Assets\Scripts\UserInput.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/10783188/Github/2670fall2018_MyGame/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

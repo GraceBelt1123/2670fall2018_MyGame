@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 23854141604111958}
   - component: {fileID: 65661936313973818}
   - component: {fileID: 114913143563845366}
+  - component: {fileID: 114680969074292404}
   m_Layer: 0
   m_Name: CoinOne
   m_TagString: Coin
@@ -97,6 +98,21 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &114680969074292404
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1754964103188828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f022729c1751bdb44aa1233a6f2b79b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Prefab: {fileID: 0}
+  spawnPoint: {fileID: 0}
+  timeToWait: 1
+  canCreateCoins: 0
 --- !u!114 &114913143563845366
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -108,5 +124,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff88087a3eaa964c917e2b0c6e341ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Coins: {fileID: 0}
+  Coins: {fileID: 1754964103188828}
   FallSpeed: 5
