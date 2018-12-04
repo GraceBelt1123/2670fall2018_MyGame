@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class PurchaseableObjectGenerator : MonoBehaviour
 {
 
-//	public PurchasableObject Purchased;
+	public PurchasableObject Purchased;
 
-	//void Start()
-	//{
-	//	foreach (var obj in Purchased.ObjectList)
-	//	{
-	//		Instantiate(obj);
-	//	}
-	//}
+	void Start()
+	{
+		foreach (var obj in Purchased.ObjectList)
+		{
+			Instantiate(obj);
+		}
+	}
 }

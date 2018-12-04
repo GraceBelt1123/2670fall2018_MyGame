@@ -5,7 +5,5 @@ using UnityEngine;
 namespace Basic{}
 public class FloatData : MonoBehaviour
 {
-
 	public float Value;
-	
 }

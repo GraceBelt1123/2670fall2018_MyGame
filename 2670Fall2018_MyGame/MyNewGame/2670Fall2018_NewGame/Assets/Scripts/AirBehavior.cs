@@ -8,69 +8,64 @@ using UnityEngine.XR.WSA.WebCam;
 public class AirBehaviour : MonoBehaviour
 {
 
-	//public AiBase OnStart, OnEnter, OnExit;
-	
-	//[HideInInSpector] 
-	//public AiBrain Brain;
+	public AiBase OnStart, OnEnter, OnExit;
 
-	//[HideInInSpector] 
-	//public AiPatrol Patrol;
+	[HideInSpector] public AiBrain Brain;
 
-	//private Coroutine couroutine;
-	//private NavMeshAgent agent;
+	[HideInSpector] public AiPatrol Patrol;
 
-	//private void Start()
-//	{
-	//	Brain = ScriptableObject.CreateInstance<AiBrain>;
-	//	Patrol = OnStart as AiPatrol;
-	//	if (Patrol != null)
-	//	{
-	//		Patrol.SendCoroutine = ScriptableObject.CreateInstance<GameAction>();
-	//		Patrol.SendCoroutine.RaiseNoArgs += CallCoroutine;	
-	//	}
+	private Coroutine couroutine;
+	private NavMeshAgent agent;
 
-	//	agent = GetComponent<NavMeshAgent>();
-	//	Brain.Base = OnStart;
-	//	coroutine = StartCoroutine((Brain.Base.Nav(agent)));
+	private void Start()
+	{
+		Brain = ScriptableObject.CreateInstance<AiBrain>;
+		Patrol = OnStart as AiPatrol;
+		if (Patrol != null)
+		{
+			Patrol.SendCoroutine = ScriptableObject.CreateInstance<GameAction>();
+			Patrol.SendCoroutine.RaiseNoArgs += CallCoroutine;
+		}
 
-	//	private void CallCoroutine()
-	//	{
-	//		OnCall(coroutine);
-	//	}
+		agent = GetComponent<NavMeshAgent>();
+		Brain.Base = OnStart;
+		coroutine = StartCoroutine((Brain.Base.Nav(agent)));
 
-	//	private void OnTriggerEnter(Collider other)
-	//	{
-	//		Brain.Base = OnEnter;
-		//	OnCall(coroutine);
-	//	}
+		private void CallCoroutine()
+		{
+			OnCall(coroutine);
+		}
 
-	//	private void OnTriggerEnter(Collider other)
-	//	{
-	//		Brain.Base = OnExit;
-	//		OnCall(coroutine);
-	//	}
+		private void OnTriggerEnter(Collider other)
+		{
+			Brain.Base = OnEnter;
+			OnCall(coroutine);
+		}
 
-	//	private void OnCall(Coroutine c)
-	//	{
-	//		StopCoroutine(c);
-	//		coroutine = StartCoroutine(Brain.Base.Nav(agent));
-	//	}
+		private void OnTriggerEnter(Collider other)
+		{
+			Brain.Base = OnExit;
+			OnCall(coroutine);
+		}
 
-	//	public void ChangeBase(AiBase ai)
-	//	{
-			//Brain.Base = ai;
-	//	}
+		private void OnCall(Coroutine c)
+		{
+			StopCoroutine(c);
+			coroutine = StartCoroutine(Brain.Base.Nav(agent));
+		}
 
-	//	public void Restart()
-	//	{
-			//StartCoroutine(OnRestart());
-	//	}
+		public void ChangeBase(AiBase ai)
+		{
+			Brain.Base = ai;
+		}
 
-	//	private IEnumerable OnRestart()
-	//	{
-	//		
-	//	}
-	//}
+		public void Restart()
+		{
+			StartCoroutine(OnRestart());
+		}
 
-
+		private IEnumerable OnRestart()
+		{
+		}
+	}
 }
