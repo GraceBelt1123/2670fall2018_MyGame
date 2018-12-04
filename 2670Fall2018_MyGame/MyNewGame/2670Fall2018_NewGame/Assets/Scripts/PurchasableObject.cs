@@ -1,22 +1,29 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 [CreateAssetMenu(fileName = "Purchase", menuName = "Store/Purchasable")]
 public class PurchasableObject : ScriptableObject
 {
 
 	public Object Item;
+	public int UsageCount = 3;
 	public int Value;
-	public bool Purpetual;
+	public bool Perpetual;
 	public bool Instanciatable;
 
 	public void CreateItem()
 	{
-		if (Instanciatable && Item is GameObject)
+		for (int i = 0; i < UsageCount; i++)
 		{
-			Instantiate(Item);
+			if (Instanciatable && Item is GameObject)
+			{
+				Instanciatable(Item);
+			}
 		}
 	}
-
+	
+	public void Used()
+	{
+		UsageCount--; 
+	}
 }
