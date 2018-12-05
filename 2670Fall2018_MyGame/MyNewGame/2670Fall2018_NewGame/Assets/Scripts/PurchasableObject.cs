@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 [CreateAssetMenu(fileName = "Purchase", menuName = "Store/Purchasable")]
-public class PurchasableObject : ScriptableObject
+public class  PurchasableObject: ScriptableObject
 {
 
 	public Object Item;
@@ -10,7 +10,7 @@ public class PurchasableObject : ScriptableObject
 	public int Value;
 	public bool Perpetual;
 	public bool Instanciatable;
-	public PurchasableObject UpgradeFrom;
+	public PurchaseableObjects UpgradeFrom;
 
 	public void CreateItem()
 	{

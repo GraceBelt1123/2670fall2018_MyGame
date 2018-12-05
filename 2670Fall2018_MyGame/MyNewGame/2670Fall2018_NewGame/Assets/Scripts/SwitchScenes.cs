@@ -8,6 +8,7 @@ public class SwitchScenes : MonoBehaviour {
     
     public void changescene(string scenename)
     {
+        print("loading scene");
         Application.LoadLevel(scenename);
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PerCounter : MonoBehaviour
+public class PerpetualCounter : MonoBehaviour
 {
     public UnityEvent OnCount;
     public FloatData Seconds;

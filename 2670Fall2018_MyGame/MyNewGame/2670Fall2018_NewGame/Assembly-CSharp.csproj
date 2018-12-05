@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\Actions.cs" />
     <Compile Include="Assets\Scripts\AiBehaviour.cs" />
     <Compile Include="Assets\Scripts\AiPatrol.cs" />
+    <Compile Include="Assets\Scripts\Amount.cs" />
     <Compile Include="Assets\Scripts\CollectCoins.cs" />
     <Compile Include="Assets\Scripts\CreateCoins.cs" />
     <Compile Include="Assets\Scripts\CreateMultCoins.cs" />
@@ -67,30 +68,35 @@
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\GameAction.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />
+    <Compile Include="Assets\Scripts\InstanceObject.cs" />
     <Compile Include="Assets\Scripts\IntData.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\ObjectGenerator.cs" />
+    <Compile Include="Assets\Scripts\Objects.cs" />
     <Compile Include="Assets\Scripts\PerCounter.cs" />
+    <Compile Include="Assets\Scripts\PerpetualCounter.cs" />
     <Compile Include="Assets\Scripts\PurchasableObject.cs" />
+    <Compile Include="Assets\Scripts\PurchaseableObjectGenerator.cs" />
     <Compile Include="Assets\Scripts\PurchaseableObjects.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\secondFallingCoins.cs" />
     <Compile Include="Assets\Scripts\Store.cs" />
+    <Compile Include="Assets\Scripts\Store2.cs" />
     <Compile Include="Assets\Scripts\SwitchScenes.cs" />
     <Compile Include="Assets\Scripts\TimeSet.cs" />
     <Compile Include="Assets\Scripts\UpdataText.cs" />
     <Compile Include="Assets\Scripts\UserInput.cs" />
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/10783188/Github2/2670fall2018_MyGame/2670Fall2018_MyGame/MyNewGame/2670Fall2018_NewGame/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

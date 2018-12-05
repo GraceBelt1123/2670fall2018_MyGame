@@ -7,6 +7,8 @@ public class CreateMultCoins : MonoBehaviour
     //This is to make Multiply Coins to be kept falling down above. 
     public GameObject Prefab;
     public GameObject spawnPoint;
+    public GameObject luckPoint;
+    public GameObject redPoint;
     public float timeToWait = 1;
     public bool canCreateCoins;
 
@@ -29,7 +31,20 @@ public class CreateMultCoins : MonoBehaviour
             yield return new WaitForSeconds(timeToWait);
         }
         
-    }
+        while (canCreateCoins)
+        {
+            print("Luck");
+            Instantiate(Prefab, luckPoint.transform.position, Quaternion.identity);
+            yield return new WaitForSeconds(timeToWait);
+        }
+        
+        while (canCreateCoins)
+        {
+            print("Red");
+            Instantiate(Prefab, redPoint.transform.position, Quaternion.identity);
+            yield return new WaitForSeconds(timeToWait);
+        }
+    }   
 }
 
 
