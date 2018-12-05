@@ -10,6 +10,7 @@ public class PurchasableObject : ScriptableObject
 	public int Value;
 	public bool Perpetual;
 	public bool Instanciatable;
+	public PurchasableObject UpgradeFrom;
 
 	public void CreateItem()
 	{

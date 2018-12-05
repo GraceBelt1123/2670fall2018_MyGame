@@ -8,6 +8,9 @@
       <e p="Assets" t="Include">
         <e p="ButtonHandler.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ActionObject.cs" t="Include" />
+          <e p="Actions.cs" t="Include" />
+          <e p="AiBehaviour.cs" t="Include" />
           <e p="AiPatrol.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
           <e p="CreateCoins.cs" t="Include" />
@@ -16,16 +19,21 @@
           <e p="Falling.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
+          <e p="ObjectGenerator.cs" t="Include" />
           <e p="PerCounter.cs" t="Include" />
           <e p="PurchasableObject.cs" t="Include" />
+          <e p="PurchaseableObjects.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="secondFallingCoins.cs" t="Include" />
+          <e p="Store.cs" t="Include" />
           <e p="SwitchScenes.cs" t="Include" />
           <e p="TimeSet.cs" t="Include" />
           <e p="UpdataText.cs" t="Include" />
+          <e p="UserInput.cs" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
