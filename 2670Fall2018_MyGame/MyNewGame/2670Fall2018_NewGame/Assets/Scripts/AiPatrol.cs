@@ -1,7 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "Patrol, menuName = "Ai/Function/Patrol)]
 public class AiPatrol : AiBase
@@ -38,5 +40,17 @@ public class AiPatrol : AiBase
 	private void AddPatrolPointList(object obj)
 	{
 		PatrolPoints = obj as List<Vector3Data>;
+	}
+
+	public void RestartPatrol()
+	{
+		SendCoroutine.RaiseNoArgs();
+	}
+
+	public override IEnumerator Navigation(NavMeshAgent ai)
+	{
+		yield return new WaitForSeconds(HoldTime.Value);
+		ai.SetDestination(PatrolPoints[i].Value);
+		var canRun = true;
 	}
 }
