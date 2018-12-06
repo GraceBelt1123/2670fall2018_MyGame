@@ -41,5 +41,5 @@ public class Score : MonoBehaviour
       Less.SetActive(true);
     }
   }
-}
+ }
 

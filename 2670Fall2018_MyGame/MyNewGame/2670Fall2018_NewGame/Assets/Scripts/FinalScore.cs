@@ -4,7 +4,6 @@ using UnityEngine;
 [CreateAssetMenu]
 public class FinalScore : ScriptableObject
 {
-
     public int Money;
 
     public void RestartFinalScore()
