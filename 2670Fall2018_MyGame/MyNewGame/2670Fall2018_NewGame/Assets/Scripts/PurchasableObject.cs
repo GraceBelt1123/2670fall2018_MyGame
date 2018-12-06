@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu(fileName = "Purchase", menuName = "Store/Purchasable")]
+/*[CreateAssetMenu(fileName = "Purchase", menuName = "Store/Purchasable")]
 public class  PurchasableObject: ScriptableObject
 {
 
@@ -27,4 +27,4 @@ public class  PurchasableObject: ScriptableObject
 	{
 		UsageCount--; 
 	}
-}
+}*/

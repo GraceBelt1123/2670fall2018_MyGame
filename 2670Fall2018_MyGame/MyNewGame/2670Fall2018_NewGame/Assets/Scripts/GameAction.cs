@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-[CreateAssetMenu(menuName = "Actions/GameAction")]
+/*[CreateAssetMenu(menuName = "Actions/GameAction")]
 public class GameAction : ScriptableObject
 {
 
@@ -34,4 +34,4 @@ public class GameAction : ScriptableObject
 	{
 		RaiseCoroutine(obj);
 	}
-}
+}*/

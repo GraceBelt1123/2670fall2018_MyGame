@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UserInput : MonoBehaviour
+/*public class UserInput : MonoBehaviour
 {
 
 	public Actions Action;
@@ -11,4 +11,4 @@ public class UserInput : MonoBehaviour
 	{
 		Action.Raise();
 	}
-}
+}*/

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class PerpetualCounter : MonoBehaviour
+/*public class PerCounter : MonoBehaviour
 {
 
 	public UnityEvent OnCount;
@@ -17,4 +17,4 @@ public class PerpetualCounter : MonoBehaviour
 			yield return new WaitForSeconds(Seconds.Value);
 		}
 	}
-}
+}*/

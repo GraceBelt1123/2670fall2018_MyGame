@@ -19,6 +19,7 @@
           <e p="DestoryCoins.cs" t="Include" />
           <e p="Falling.cs" t="Include" />
           <e p="FallingCoins.cs" t="Include" />
+          <e p="FinalScore.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="GameAction.cs" t="Include" />
           <e p="GameStateManager.cs" t="Include" />

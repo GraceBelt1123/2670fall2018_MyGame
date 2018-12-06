@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\DestoryCoins.cs" />
     <Compile Include="Assets\Scripts\Falling.cs" />
     <Compile Include="Assets\Scripts\FallingCoins.cs" />
+    <Compile Include="Assets\Scripts\FinalScore.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\GameAction.cs" />
     <Compile Include="Assets\Scripts\GameStateManager.cs" />

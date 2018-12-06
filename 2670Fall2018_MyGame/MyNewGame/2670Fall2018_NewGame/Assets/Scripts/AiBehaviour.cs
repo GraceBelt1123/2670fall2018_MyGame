@@ -4,13 +4,13 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.XR.WSA.WebCam;
 
-public class AiBehaviour : MonoBehaviour
+/*public class AiBehaviour : MonoBehaviour
 {
 
-	public Aibase OnStart, OnEnter, OnExit;]
+	//public Aibase OnStart, OnEnter, OnExit;]
 		
 	[HideInInspector] 
-	public AiBrain Brain;
+	//public AiBrain Brain;
 
 	[HideInInspector] 
 	public AiPatrol Patrol;
@@ -69,4 +69,4 @@ public class AiBehaviour : MonoBehaviour
 	{
 		
 	}
-}
+}*/

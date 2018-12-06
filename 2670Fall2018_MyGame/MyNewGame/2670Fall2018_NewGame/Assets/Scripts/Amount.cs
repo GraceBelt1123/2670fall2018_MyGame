@@ -4,7 +4,5 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Score", menuName = "score")]
 public class Amount : ScriptableObject
 {
-
 	public int score;
-
 }

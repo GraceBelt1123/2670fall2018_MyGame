@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PurchaseableObjects : MonoBehaviour
+/*public class PurchaseableObjects : MonoBehaviour
 {
 
 	public PurchaseableObjects Purchased;
@@ -14,4 +14,4 @@ public class PurchaseableObjects : MonoBehaviour
 			Instantiate(obj);
 		}
 	}
-}
+}*/

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-[CreateAssetMenu(menuName = "Actions/Action")]
+/*[CreateAssetMenu(menuName = "Actions/Action")]
 public class Actions : ScriptableObject
 {
 
@@ -13,4 +13,4 @@ public class Actions : ScriptableObject
 	{
 		Raise();
 	}
-}
+}*/

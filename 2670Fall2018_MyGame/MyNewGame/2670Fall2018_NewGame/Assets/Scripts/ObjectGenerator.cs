@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ObjectGenerator : MonoBehaviour
+/*public class ObjectGenerator : MonoBehaviour
 {
 
 	public PurchaseableObjects Purchased;
@@ -15,4 +15,4 @@ public class ObjectGenerator : MonoBehaviour
 			Instantiate(obj);
 		}
 	}	
-}
+}*/

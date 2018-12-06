@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Store : ScriptableObject
+/*public class Store : ScriptableObject
 {
 	public PurchaseableObjects Available;
 	public PurchaseableObjects Purchased;
@@ -54,4 +54,4 @@ public class Store : ScriptableObject
 			TotalValue %= 75;
 		}
 	}
-}
+}*/

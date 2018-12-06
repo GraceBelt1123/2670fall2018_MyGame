@@ -1,21 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(fileName = "Store2", menuName = "Store2/StoreFront")]
 public class Store2 : ScriptableObject
 {
 
-	public object Item;
-	public List<object> Purchased;
+	public Object Item;
+	public List<Object> Purchased;
 	public int ItemValue;
-	public IntData Cash;
+	public FinalScore Cash;
 	
 	public void Purchase()
 	{
-		if (Cash >= ItemValue)
+		if (Cash.Money >= ItemValue)
 		{
 			Purchased.Add(Item);
-			Cash.Value -= ItemValue;
+			Cash.Money -= ItemValue;
 		}
 	}
 

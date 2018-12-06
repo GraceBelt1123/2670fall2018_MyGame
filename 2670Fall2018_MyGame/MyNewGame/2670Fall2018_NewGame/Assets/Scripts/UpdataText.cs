@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UpdataText : MonoBehaviour
+/*public class UpdataText : MonoBehaviour
 {
 
 	public IntData Data;
@@ -19,4 +19,4 @@ public class UpdataText : MonoBehaviour
 	{
 		label.text = Data.Value.ToString("C0");
 	}
-}
+}*/

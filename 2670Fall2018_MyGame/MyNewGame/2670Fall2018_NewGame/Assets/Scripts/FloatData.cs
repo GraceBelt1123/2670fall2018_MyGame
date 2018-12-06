@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-    public class FloatData : MonoBehaviour
+    /*public class FloatData : MonoBehaviour
     {
         public float Value;
-    }
+    }*/
 
 

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PurchaseableObjectGenerator : MonoBehaviour
+/*public class PurchaseableObjectGenerator : MonoBehaviour
 {
 
     public PurchaseableObjectGenerator Purchased;
@@ -18,4 +18,4 @@ public class PurchaseableObjectGenerator : MonoBehaviour
             }
         }
     }
-}
+}*/

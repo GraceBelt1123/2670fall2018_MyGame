@@ -5,7 +5,7 @@ using UnityEngine.AI;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-[CreateAssetMenu(fileName = "Patrol, menuName = "Ai/Function/Patrol)]
+/*[CreateAssetMenu(fileName = "Patrol, menuName = "Ai/Function/Patrol)]
 public class AiPatrol : AiBase
 {
 
@@ -53,4 +53,4 @@ public class AiPatrol : AiBase
 		ai.SetDestination(PatrolPoints[i].Value);
 		var canRun = true;
 	}
-}
+}*/
