@@ -4,8 +4,8 @@ using System.Runtime.Remoting.Messaging;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
-
-public class CreateCoins : MonoBehaviour
+[CreateAssetMenu]
+public class CreateCoins : ScriptableObject
 {
 
 	public GameObject Coins;

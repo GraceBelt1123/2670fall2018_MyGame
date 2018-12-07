@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 74342936}
   - component: {fileID: 74342935}
   m_Layer: 5
-  m_Name: Cheese
+  m_Name: Cheese/$6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -188,18 +188,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 74342936}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &74342936
@@ -724,7 +713,7 @@ GameObject:
   - component: {fileID: 462354897}
   - component: {fileID: 462354896}
   m_Layer: 5
-  m_Name: Shh
+  m_Name: Shh/$10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1392,7 +1381,7 @@ GameObject:
   - component: {fileID: 1201557753}
   - component: {fileID: 1201557752}
   m_Layer: 5
-  m_Name: Cute
+  m_Name: Cute/$10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1847,7 +1836,7 @@ GameObject:
   - component: {fileID: 2074786664}
   - component: {fileID: 2074786663}
   m_Layer: 5
-  m_Name: Love
+  m_Name: Love/$2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
