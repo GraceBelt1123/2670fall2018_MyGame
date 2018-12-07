@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ChangeCoinType : MonoBehaviour {
+public class ChangeCoinType : MonoBehaviour
+{
+
 
 
     public void ChangeType()
@@ -12,6 +14,12 @@ public class ChangeCoinType : MonoBehaviour {
         //Call this method on Start() so game starts with correct coin type
         //Create coin prefabs for each emoji
         //Use List<GameObject> like CreateCoins script to store your coin prefabs
+        
+        //byGrace, I think it is needed public Object Item.
+        
+        
+        
+        
     }
     
 }
