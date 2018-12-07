@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class ChangeCoinType : MonoBehaviour
+[CreateAssetMenu]
+public class ChangeCoinType : ScriptableObject
 {
 
 
-
+    public GameObject ChangeItem;
+    
     public void ChangeType()
     {
         //check Store2 Scriptable Object to see what coin was last purchased
@@ -14,8 +15,7 @@ public class ChangeCoinType : MonoBehaviour
         //Call this method on Start() so game starts with correct coin type
         //Create coin prefabs for each emoji
         //Use List<GameObject> like CreateCoins script to store your coin prefabs
-        
-        //byGrace, I think it is needed public Object Item.
+
         
         
         

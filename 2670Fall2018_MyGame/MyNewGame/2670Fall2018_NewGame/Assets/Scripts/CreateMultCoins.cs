@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[CreateAssetMenu]
-public class CreateMultCoins : ScriptableObject
+
+public class CreateMultCoins : MonoBehaviour
 {
     //This is to make Multiply Coins to be kept falling down above. 
     public GameObject Prefab;
