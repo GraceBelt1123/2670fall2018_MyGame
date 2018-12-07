@@ -13,6 +13,7 @@
           <e p="AiBehaviour.cs" t="Include" />
           <e p="AiPatrol.cs" t="Include" />
           <e p="Amount.cs" t="Include" />
+          <e p="ChangeCoinType.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
           <e p="CreateCoins.cs" t="Include" />
           <e p="CreateMultCoins.cs" t="Include" />
@@ -33,6 +34,7 @@
           <e p="PurchasableObject.cs" t="Include" />
           <e p="PurchaseableObjectGenerator.cs" t="Include" />
           <e p="PurchaseableObjects.cs" t="Include" />
+          <e p="PurchasedFallingSmiles.cs" t="Include" />
           <e p="Score.cs" t="Include" />
           <e p="secondFallingCoins.cs" t="Include" />
           <e p="Store.cs" t="Include" />

@@ -670,7 +670,7 @@ MonoBehaviour:
   Greater: {fileID: 389114618}
   Less: {fileID: 552989173}
   sweetText: {fileID: 1095895433}
-  score: {fileID: 11400000, guid: 0251fa623c2a3554e88b216d09bd4ad6, type: 2}
+  score: {fileID: 11400000, guid: 78811d4a3ca2f6840a490aea71f2255c, type: 2}
 --- !u!114 &405641966
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1755,7 +1755,6 @@ GameObject:
   - component: {fileID: 1153927366}
   - component: {fileID: 1153927365}
   - component: {fileID: 1153927364}
-  - component: {fileID: 1153927368}
   - component: {fileID: 1153927367}
   m_Layer: 0
   m_Name: CreateCoins
@@ -1842,25 +1841,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f022729c1751bdb44aa1233a6f2b79b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 1754964103188828, guid: 561b92b7ee49e24439542600ff1c8c78, type: 2}
-  spawnPoint: {fileID: 1216633078}
-  luckPoint: {fileID: 1771595206}
-  redPoint: {fileID: 824285709}
+  Prefab: {fileID: 1947379324394860, guid: c51a238fac7dfb442aca1da153384792, type: 2}
+  spawnPoints:
+  - {fileID: 1216633078}
+  - {fileID: 1771595206}
+  - {fileID: 824285709}
   timeToWait: 1
   canCreateCoins: 0
---- !u!114 &1153927368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1153927362}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5a741a68c9463994bb13443388bde0df, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Coins: {fileID: 0}
-  Trigger: {fileID: 1153927362}
 --- !u!1 &1171082149
 GameObject:
   m_ObjectHideFlags: 0

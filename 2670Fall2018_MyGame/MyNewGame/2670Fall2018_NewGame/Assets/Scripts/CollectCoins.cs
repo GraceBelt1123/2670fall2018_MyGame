@@ -19,7 +19,7 @@ public class CollectCoins : MonoBehaviour
 
     void Start()
     {
-        score.score.score = 0;
+        score.score.Money = 0;
         score.UpdateScore();
         //StartCoroutine(LuckBrain());
     }

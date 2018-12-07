@@ -9,7 +9,7 @@ public class DestoryCoins : MonoBehaviour {
     {
         if (other.tag == "Coin")
         {
-            print("Destory");
+            //print("Destory");
             Destroy(other.gameObject);
         }
     }

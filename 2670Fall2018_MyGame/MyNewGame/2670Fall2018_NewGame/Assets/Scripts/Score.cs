@@ -13,30 +13,30 @@ public class Score : MonoBehaviour
   //public bool LuckScore;
   
   public Text sweetText;
-  public Amount score;
+  public FinalScore score;
   
   public void Addscore(int newValue)
   {
-    score.score += newValue;
+    score.Money += newValue;
     print(score);
     UpdateScore();
   }
 
   public void UpdateScore()
   {
-    sweetText.text = "Score: " + score.score;
+    sweetText.text = "Score: " + score.Money;
   }
   
   public void EndScore()
   {
-    print(score.score);
+    print(score.Money);
     
-    if (score.score > 5)
+    if (score.Money > 5)
     {
       Greater.SetActive(true);
     }
 
-    if (score.score < 5)
+    if (score.Money < 5)
     {
       Less.SetActive(true);
     }

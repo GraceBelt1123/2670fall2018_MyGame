@@ -59,6 +59,7 @@
     <Compile Include="Assets\Scripts\AiBehaviour.cs" />
     <Compile Include="Assets\Scripts\AiPatrol.cs" />
     <Compile Include="Assets\Scripts\Amount.cs" />
+    <Compile Include="Assets\Scripts\ChangeCoinType.cs" />
     <Compile Include="Assets\Scripts\CollectCoins.cs" />
     <Compile Include="Assets\Scripts\CreateCoins.cs" />
     <Compile Include="Assets\Scripts\CreateMultCoins.cs" />
@@ -79,6 +80,7 @@
     <Compile Include="Assets\Scripts\PurchasableObject.cs" />
     <Compile Include="Assets\Scripts\PurchaseableObjectGenerator.cs" />
     <Compile Include="Assets\Scripts\PurchaseableObjects.cs" />
+    <Compile Include="Assets\Scripts\PurchasedFallingSmiles.cs" />
     <Compile Include="Assets\Scripts\Score.cs" />
     <Compile Include="Assets\Scripts\secondFallingCoins.cs" />
     <Compile Include="Assets\Scripts\Store.cs" />
