@@ -13,6 +13,7 @@
           <e p="AiBehaviour.cs" t="Include" />
           <e p="AiPatrol.cs" t="Include" />
           <e p="Amount.cs" t="Include" />
+          <e p="Change.cs" t="Include" />
           <e p="ChangeCoinType.cs" t="Include" />
           <e p="CollectCoins.cs" t="Include" />
           <e p="CreateCoins.cs" t="Include" />

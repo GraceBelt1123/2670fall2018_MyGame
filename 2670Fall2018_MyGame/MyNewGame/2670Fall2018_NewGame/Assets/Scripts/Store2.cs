@@ -12,9 +12,7 @@ public class Store2 : ScriptableObject
 	public List<Object> Purchased;
 	public int ItemValue;
 	public FinalScore Cash;
-	public Sprite[] ai;
-	public Button bi;
-	public int count = 0;
+	
 	
 	public void Purchase()
 	{
@@ -32,21 +30,5 @@ public class Store2 : ScriptableObject
 			Instantiate(Purchased[0]);
 			Purchased.RemoveAt(0);
 		}
-	}
-
-	public void ChangeAwake()
-	{
-		ai = Resources.LoadAll<Sprite>("Sprites");
-	}
-
-	public void OnClickButton()
-	{
-		count++;
-		if (count == ai.Length)
-		{
-			count = 0;
-		}
-
-		bi.image.sprite = ai (count);
 	}
 }
